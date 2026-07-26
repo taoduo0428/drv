@@ -14414,3 +14414,15 @@
 2026-07-26 23:28:22 [WARN] SSH tunnel exited. code=255 lifetime=2s retry=60s
 2026-07-26 23:29:23 [INFO] Starting SSH reverse tunnel.
 2026-07-26 23:29:25 [WARN] SSH tunnel exited. code=255 lifetime=2s retry=60s
+2026-07-26 23:30:25 [INFO] Starting SSH reverse tunnel.
+2026-07-26 23:30:28 [WARN] SSH tunnel exited. code=255 lifetime=2s retry=60s
+2026-07-26 23:31:28 [INFO] Starting SSH reverse tunnel.
+2026-07-26 23:31:31 [WARN] SSH tunnel exited. code=255 lifetime=2s retry=60s
+2026-07-26 23:32:31 [INFO] Starting SSH reverse tunnel.
+2026-07-26 23:32:33 [WARN] SSH tunnel exited. code=255 lifetime=2s retry=60s
+2026-07-26 23:33:34 [INFO] Starting SSH reverse tunnel.
+2026-07-26 23:33:36 [WARN] SSH tunnel exited. code=255 lifetime=2s retry=60s
+2026-07-26 23:34:37 [INFO] Starting SSH reverse tunnel.
+2026-07-26 23:34:39 [WARN] SSH tunnel exited. code=255 lifetime=2s retry=60s
+2026-07-26 23:35:40 [INFO] Starting SSH reverse tunnel.
+2026-07-26 23:35:42 [WARN] SSH tunnel exited. code=255 lifetime=2s retry=60s
