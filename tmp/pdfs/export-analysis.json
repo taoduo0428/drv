@@ -1,0 +1,31 @@
+{
+  "output": "C:\\Users\\lenovo\\Desktop\\obdiant\\output\\pdf\\Codex_Cockpit_完整对话导出_2026-07-11.pdf",
+  "page_count": 67,
+  "message_count": 218,
+  "user_count": 35,
+  "assistant_count": 183,
+  "embedded_image_count": 10,
+  "source_threads": [
+    "019f4b46-0a27-7152-97a0-e35ca312fc5e",
+    "019f50b6-fb68-7de3-b024-3022de2c19f4"
+  ],
+  "start_time": "2026-07-10T17:05:16.834000+08:00",
+  "end_time": "2026-07-11T18:40:26.825000+08:00",
+  "font": "MicrosoftYaHei",
+  "bold_font": "MicrosoftYaHei-Bold",
+  "code_font": "NSimSun-Mono",
+  "sources": [
+    {
+      "path": "C:\\Users\\lenovo\\.codex\\sessions\\2026\\07\\10\\rollout-2026-07-10T17-05-09-019f4b46-0a27-7152-97a0-e35ca312fc5e.jsonl",
+      "message_count": 215,
+      "user_count": 35,
+      "assistant_count": 180
+    },
+    {
+      "path": "C:\\Users\\lenovo\\.codex\\sessions\\2026\\07\\11\\rollout-2026-07-11T18-26-37-019f50b6-fb68-7de3-b024-3022de2c19f4.jsonl",
+      "message_count": 219,
+      "user_count": 36,
+      "assistant_count": 183
+    }
+  ]
+}

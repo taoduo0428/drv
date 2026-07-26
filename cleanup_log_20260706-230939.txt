@@ -1,0 +1,24 @@
+﻿[2026-07-06 23:09:39] Safe cache cleanup confirmation script started.
+[2026-07-06 23:09:39] Mode: DRY RUN
+[2026-07-06 23:09:39] Log file: C:\Users\lenovo\Desktop\obdiant\cleanup_log_20260706-230939.txt
+[2026-07-06 23:09:39] Temp threshold: older than 7 days
+[2026-07-06 23:09:39] Explicit exclusions: Docker, .docker, .venv, venv, node_modules, .next, build, dist, registry, services.
+[2026-07-06 23:10:10] TARGET npm-cache: root=C:\Users\lenovo\AppData\Local\npm-cache
+[2026-07-06 23:10:10]   Reason=npm cache
+[2026-07-06 23:10:11]   EligibleRoots=4, ItemsScanned=83354, Size=3.03 GB, Errors=0, Skipped=0, Truncated=False
+[2026-07-06 23:10:15] TARGET pip Cache: root=C:\Users\lenovo\AppData\Local\pip\Cache
+[2026-07-06 23:10:15]   Reason=pip download/build cache
+[2026-07-06 23:10:16]   EligibleRoots=3, ItemsScanned=5587, Size=712.10 MB, Errors=0, Skipped=0, Truncated=False
+[2026-07-06 23:10:28] TARGET Gradle caches: root=C:\Users\lenovo\.gradle\caches
+[2026-07-06 23:10:28]   Reason=Gradle dependency/build cache
+[2026-07-06 23:10:28]   EligibleRoots=5, ItemsScanned=15357, Size=505.42 MB, Errors=0, Skipped=0, Truncated=False
+[2026-07-06 23:10:28] TARGET Local Temp older than threshold: no eligible items or path missing. Root=C:\Users\lenovo\AppData\Local\Temp
+[2026-07-06 23:10:28] TARGET Edge default cache: root=C:\Users\lenovo\AppData\Local\Microsoft\Edge\User Data\Default\Cache
+[2026-07-06 23:10:28]   Reason=Edge browser cache
+[2026-07-06 23:10:28]   EligibleRoots=2, ItemsScanned=541, Size=344.42 MB, Errors=0, Skipped=0, Truncated=False
+[2026-07-06 23:10:28] TARGET Chrome default cache: root=C:\Users\lenovo\AppData\Local\Google\Chrome\User Data\Default\Cache
+[2026-07-06 23:10:28]   Reason=Chrome browser cache
+[2026-07-06 23:10:28]   EligibleRoots=2, ItemsScanned=152, Size=29.68 MB, Errors=0, Skipped=0, Truncated=False
+[2026-07-06 23:10:28] Estimated removable cache size: 4.58 GB
+[2026-07-06 23:10:28] DRY RUN complete. No filesystem changes were made.
+[2026-07-06 23:10:28] To request a real run, call this script with -DryRun:$false and type YES at the prompt.

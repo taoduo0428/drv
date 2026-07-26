@@ -1,0 +1,305 @@
+{
+  "store_module_product_num": {
+    "message": "Number of Products"
+  },
+  "store_module_new_product_num": {
+    "message": "Number of New Products"
+  },
+  "store_module_brand_num": {
+    "message": "Number of Brands"
+  },
+  "store_module_feedback_num": {
+    "message": "Feedback Count / Ratings"
+  },
+  "store_module_delivery_method": {
+    "message": "Fulfillment"
+  },
+  "store_module_location": {
+    "message": "Location"
+  },
+  "store_module_market_analysis": {
+    "message": "Market Analysis"
+  },
+  "store_module_download_product_features": {
+    "message": "Download Bullet Points"
+  },
+  "store_module_copy_all_asin": {
+    "message": "Copy All ASINs"
+  },
+  "store_module_store_age": {
+    "message": "Seller Duration"
+  },
+  "store_module_recent_listing_time": {
+    "message": "Recent Launch Date"
+  },
+  "store_module_30_day_sales": {
+    "message": "30D Sales"
+  },
+  "store_module_revenue": {
+    "message": "Revenue"
+  },
+  "store_module_average_bsr": {
+    "message": "Avg. BSR"
+  },
+  "store_module_min_max_bsr": {
+    "message": "The Lowest/Highest BSR"
+  },
+  "store_module_average_price": {
+    "message": "Avg. Price"
+  },
+  "store_module_min_max_price": {
+    "message": "The Lowest/Highest Price"
+  },
+  "store_module_average_rating_count": {
+    "message": "Avg. Rating/Number of Ratings"
+  },
+  "store_module_top_10_product_ratings": {
+    "message": "Top 10 Product Rating"
+  },
+  "store_module_product_list": {
+    "message": "Product List"
+  },
+  "store_module_price_distribution": {
+    "message": "Price Range"
+  },
+  "store_module_seller_type": {
+    "message": "Seller Type"
+  },
+  "store_module_a_plus_video": {
+    "message": "A+ Content and Video"
+  },
+  "store_module_listing_time": {
+    "message": "Listing Date"
+  },
+  "store_module_rating_value": {
+    "message": "Rating"
+  },
+  "store_module_view_new_only": {
+    "message": "Show New Products Only"
+  },
+  "store_module_product": {
+    "message": "Product"
+  },
+  "store_module_brand": {
+    "message": "Brand"
+  },
+  "store_module_category": {
+    "message": "Category"
+  },
+  "store_module_parent_sales": {
+    "message": "Units Sold"
+  },
+  "store_module_child_sales": {
+    "message": "Variation Sold"
+  },
+  "store_module_variant_count": {
+    "message": "Variations"
+  },
+  "store_module_price": {
+    "message": "Price"
+  },
+  "store_module_rating": {
+    "message": "Rating"
+  },
+  "store_module_rating_count": {
+    "message": "Ratings"
+  },
+  "store_module_seller_count": {
+    "message": "Sellers"
+  },
+  "store_module_list": {
+    "message": "List"
+  },
+  "store_module_graph": {
+    "message": "Graph"
+  },
+  "store_module_export": {
+    "message": "Export"
+  },
+  "store_module_sales": {
+    "message": "Sales"
+  },
+  "store_module_proportion": {
+    "message": "Distribution"
+  },
+  "store_module_brand_flagship": {
+    "message": "Brand Flagship Store"
+  },
+  "store_module_30_day_total_sales": {
+    "message": "30D Total Sales"
+  },
+  "store_module_30_day_total_revenue": {
+    "message": "30D Total Revenue"
+  },
+  "store_module_tips_fake": {
+    "message": "Sales data is limited to the top 10 products in the store. <a style='color: #ff9300' href='https://www.sellersprite.com/price' target='_blank'>Upgrade Your Account</a> to access more!"
+  },
+  "store_module_seller_duration_tips": {
+    "message": "The number of days since the first product in the store was launched.<br>Recent Launch Date: The specific date when the most recent product in the store was listed."
+  },
+  "store_module_month_sales_tips": {
+    "message": " The total sales of all products in the store over the past 30 days.<br>Revenue: The total revenue of all products in the store over the past 30 days."
+  },
+  "store_module_avg_bsr_tips": {
+    "message": "The average BSR ranking of all products in the store.<br/>The Lowest/Highest BSR: The lowest and highest BSR rankings among all products in the store. (Note: The smaller the number, the higher the BSR ranking.)"
+  },
+  "store_module_avg_price_tips": {
+    "message": "The average price of all products in the store.<br>The Lowest/Highest Price: The lowest and highest prices among all products in the store."
+  },
+  "store_module_avg_rating_reviews_tips": {
+    "message": "The average rating of all products in the store / The average number of ratings across all products in the store.<br>Top 10 Product Rating: The average rating of the top 10 best-selling products in the store."
+  },
+  "store_module_sales_rate_vip": {
+    "message": "The proportion of sales from products under different brands or categories relative to the store's total sales."
+  },
+  "store_module_sales_rate_free": {
+    "message": "The proportion of sales from products under different brands or categories relative to the store's total sales.<br>Sales data is limited to the top 10 products in the store.<a style='color: #ff9300' href='https://www.sellersprite.com/price' target='_blank'> Upgrade your account </a>to access more!"
+  },
+  "excel_store_image": {
+    "message": "Image"
+  },
+  "excel_store_badges": {
+    "message": "Amazon Badges"
+  },
+  "excel_store_asin": {
+    "message": "ASIN"
+  },
+  "excel_store_parent_asin": {
+    "message": "ParentASIN"
+  },
+  "excel_store_url": {
+    "message": "URL"
+  },
+  "excel_store_image_url": {
+    "message": "Image URL"
+  },
+  "excel_store_brand": {
+    "message": "Brand"
+  },
+  "excel_store_overviews": {
+    "message": "Product Overview"
+  },
+  "excel_store_brand_url": {
+    "message": "Brand URL"
+  },
+  "excel_store_departments": {
+    "message": "Dominant Category"
+  },
+  "excel_store_title": {
+    "message": "Product Title"
+  },
+  "excel_store_title_translate": {
+    "message": "Title (Translate)"
+  },
+  "excel_store_category_path": {
+    "message": "Category Path"
+  },
+  "excel_store_category": {
+    "message": "Category"
+  },
+  "excel_store_bsr": {
+    "message": "Category BSR"
+  },
+  "excel_store_bsr_CV": {
+    "message": "Category BSR Increase"
+  },
+  "excel_store_bsr_CR": {
+    "message": "Category BSR Growth"
+  },
+  "excel_store_sub_category": {
+    "message": "Sub-Category"
+  },
+  "excel_store_sub_category_BSR": {
+    "message": "Sub-Category BSR"
+  },
+  "excel_store_sales_volume": {
+    "message": "Monthly Sales"
+  },
+  "excel_store_sales_volume_growth": {
+    "message": "Monthly Sales growth"
+  },
+  "excel_store_sub_sales_volume": {
+    "message": "Variation Sold"
+  },
+  "excel_store_sub_sales_amount": {
+    "message": "Variation revenue"
+  },
+  "excel_store_sales_amount": {
+    "message": "Monthly revenue"
+  },
+  "excel_store_price": {
+    "message": "Price"
+  },
+  "excel_store_prime_price": {
+    "message": "Prime Price"
+  },
+  "excel_store_coupon": {
+    "message": "Coupon"
+  },
+  "excel_store_profit": {
+    "message": "Gross Margin"
+  },
+  "excel_store_fba_fees": {
+    "message": "FBA"
+  },
+  "excel_store_rating": {
+    "message": "Rating"
+  },
+  "excel_store_review": {
+    "message": "Ratings"
+  },
+  "excel_store_review_rate": {
+    "message": "Rating Velocity"
+  },
+  "excel_store_review_delta": {
+    "message": "Newly Ratings"
+  },
+  "excel_store_grade": {
+    "message": "Grade"
+  },
+  "excel_store_questions": {
+    "message": "Q&A"
+  },
+  "excel_store_date_available": {
+    "message": "Date Available"
+  },
+  "excel_store_available_days": {
+    "message": "Available days"
+  },
+  "excel_store_variations": {
+    "message": "Variations"
+  },
+  "excel_store_sellers": {
+    "message": "Sellers"
+  },
+  "excel_store_weight": {
+    "message": "Weight"
+  },
+  "excel_store_dimension": {
+    "message": "Dimensions"
+  },
+  "excel_store_pkg_weight": {
+    "message": "Package Weight"
+  },
+  "excel_store_pkg_dimension": {
+    "message": "Package Dimensions"
+  },
+  "excel_store_proportion": {
+    "message": "Distribution"
+  },
+  "store_first_listing_time": {
+    "message": "Date First Available：{date}",
+    "placeholders": {
+      "date": {
+        "content": "$1",
+        "example": "2021-10-01"
+      }
+    }
+  },
+  "store_search_btn": {
+    "message": "Search"
+  },
+  "store_see_more_btn": {
+    "message": "See More"
+  }
+}

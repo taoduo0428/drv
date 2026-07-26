@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "origin",
+          "operation": "set",
+          "value": "https://tiksave.io"
+        },
+        {
+          "header": "referer",
+          "operation": "set",
+          "value": "https://tiksave.io/en"
+        }
+      ]
+    },
+    "condition": {
+      "urlFilter": "https://tiksave.io/api/ajaxSearch",
+      "resourceTypes": ["xmlhttprequest"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "origin",
+          "operation": "set",
+          "value": "https://www.kolsprite.com"
+        },
+        {
+          "header": "referer",
+          "operation": "set",
+          "value": "https://www.kolsprite.com"
+        }
+      ]
+    },
+    "condition": {
+      "urlFilter": "https://o.kolsprite.com/caption",
+      "resourceTypes": ["xmlhttprequest"]
+    }
+  }
+]

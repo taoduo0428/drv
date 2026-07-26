@@ -1,0 +1,26 @@
+﻿[2026-07-06 23:06:58] Safe cache cleanup confirmation script started.
+[2026-07-06 23:06:58] Mode: DRY RUN
+[2026-07-06 23:06:58] Log file: C:\Users\lenovo\Desktop\obdiant\cleanup_log_20260706-230658.txt
+[2026-07-06 23:06:58] Temp threshold: older than 7 days
+[2026-07-06 23:06:58] Explicit exclusions: Docker, .docker, .venv, venv, node_modules, .next, build, dist, registry, services.
+[2026-07-06 23:07:11] TARGET npm-cache: root=C:\Users\lenovo\AppData\Local\npm-cache
+[2026-07-06 23:07:11]   Reason=npm cache
+[2026-07-06 23:07:11]   EligibleRoots=4, ItemsScanned=13390, Size=2.35 GB, Errors=0, Skipped=1284, Truncated=False
+[2026-07-06 23:07:19] TARGET pip Cache: root=C:\Users\lenovo\AppData\Local\pip\Cache
+[2026-07-06 23:07:19]   Reason=pip download/build cache
+[2026-07-06 23:07:19]   EligibleRoots=3, ItemsScanned=5587, Size=712.10 MB, Errors=0, Skipped=0, Truncated=False
+[2026-07-06 23:07:41] TARGET Gradle caches: root=C:\Users\lenovo\.gradle\caches
+[2026-07-06 23:07:41]   Reason=Gradle dependency/build cache
+[2026-07-06 23:07:41]   EligibleRoots=5, ItemsScanned=15291, Size=505.42 MB, Errors=0, Skipped=33, Truncated=False
+[2026-07-06 23:07:42] TARGET Local Temp older than threshold: root=C:\Users\lenovo\AppData\Local\Temp
+[2026-07-06 23:07:42]   Reason=AppData Local Temp direct children older than threshold
+[2026-07-06 23:07:42]   EligibleRoots=14, ItemsScanned=33, Size=1.06 MB, Errors=0, Skipped=0, Truncated=False
+[2026-07-06 23:07:42] TARGET Edge default cache: root=C:\Users\lenovo\AppData\Local\Microsoft\Edge\User Data\Default\Cache
+[2026-07-06 23:07:42]   Reason=Edge browser cache
+[2026-07-06 23:07:42]   EligibleRoots=2, ItemsScanned=561, Size=345.66 MB, Errors=0, Skipped=0, Truncated=False
+[2026-07-06 23:07:42] TARGET Chrome default cache: root=C:\Users\lenovo\AppData\Local\Google\Chrome\User Data\Default\Cache
+[2026-07-06 23:07:42]   Reason=Chrome browser cache
+[2026-07-06 23:07:42]   EligibleRoots=2, ItemsScanned=152, Size=29.68 MB, Errors=0, Skipped=0, Truncated=False
+[2026-07-06 23:07:42] Estimated removable cache size: 3.90 GB
+[2026-07-06 23:07:42] DRY RUN complete. No filesystem changes were made.
+[2026-07-06 23:07:42] To request a real run, call this script with -DryRun:$false and type YES at the prompt.

@@ -1,0 +1,81 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "assets/images/icons/icon-16.png",
+         "32": "assets/images/icons/icon-32.png",
+         "48": "assets/images/icons/icon-48.png"
+      },
+      "default_popup": "popup/index.html"
+   },
+   "background": {
+      "service_worker": "service-worker-loader.js",
+      "type": "module"
+   },
+   "content_scripts": [ {
+      "css": [ "chunks/chunk-vxe-table.css", "chunks/chunk-element-plus.css", "chunks/chunk-common.css", "content/index.css", "assets/styles/flag-icon-css/css/flag-icon.min.css" ],
+      "js": [ "chunks/chunk-echarts.js", "chunks/chunk-vxe-table.js", "chunks/chunk-element-plus.js", "chunks/chunk-zrender.js", "chunks/chunk-vendors.js", "chunks/chunk-common.js", "content/index.js", "assets/fontjs.js" ],
+      "matches": [ "https://www.amazon.com/*", "https://www.amazon.co.jp/*", "https://www.amazon.co.uk/*", "https://www.amazon.de/*", "https://www.amazon.fr/*", "https://www.amazon.es/*", "https://www.amazon.it/*", "https://www.amazon.ca/*", "https://www.amazon.in/*", "https://www.amazon.com.mx/*", "https://www.amazon.com.au/*", "https://www.amazon.ae/*", "https://www.amazon.nl/*", "https://www.amazon.pl/*", "https://www.amazon.se/*", "https://www.amazon.sa/*", "https://www.amazon.sg/*", "https://www.amazon.com.br/*", "https://www.amazon.com.tr/*", "https://sellercentral.amazon.com/orders*", "https://sellercentral.amazon.co.jp/orders*", "https://sellercentral.amazon.co.uk/orders*", "https://sellercentral.amazon.de/orders*", "https://sellercentral.amazon.fr/orders*", "https://sellercentral.amazon.es/orders*", "https://sellercentral.amazon.it/orders*", "https://sellercentral.amazon.ca/orders*", "https://sellercentral.amazon.in/orders*", "https://sellercentral.amazon.com.mx/orders*", "https://sellercentral.amazon.com.au/orders*", "https://sellercentral.amazon.ae/orders*", "https://sellercentral.amazon.nl/orders*", "https://sellercentral.amazon.se/orders*", "https://sellercentral.amazon.sa/orders*", "https://sellercentral.amazon.sg/orders*", "https://sellercentral-japan.amazon.com/orders*", "https://sellercentral-europe.amazon.com/orders*", "https://sellercentral.amazon.com/amazonsell/orders*", "https://sellercentral.amazon.co.jp/amazonsell/orders*", "https://sellercentral.amazon.co.uk/amazonsell/orders*", "https://sellercentral.amazon.de/amazonsell/orders*", "https://sellercentral.amazon.fr/amazonsell/orders*", "https://sellercentral.amazon.es/amazonsell/orders*", "https://sellercentral.amazon.it/amazonsell/orders*", "https://sellercentral.amazon.ca/amazonsell/orders*", "https://sellercentral.amazon.in/amazonsell/orders*", "https://sellercentral.amazon.com.mx/amazonsell/orders*", "https://sellercentral.amazon.com.au/amazonsell/orders*", "https://sellercentral.amazon.ae/amazonsell/orders*", "https://sellercentral.amazon.nl/amazonsell/orders*", "https://sellercentral.amazon.se/amazonsell/orders*", "https://sellercentral.amazon.sa/amazonsell/orders*", "https://sellercentral.amazon.sg/amazonsell/orders*", "https://sellercentral-japan.amazon.com/amazonsell/orders*", "https://sellercentral-europe.amazon.com/amazonsell/orders*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "chunks/chunk-vendors.js", "chunks/chunk-common.js", "content/web.js" ],
+      "matches": [ "https://www.sellersprite.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "content/open-1688.js" ],
+      "matches": [ "https://*.1688.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "chunks/chunk-common.js", "content/preload.js" ],
+      "matches": [ "https://www.amazon.com/*", "https://www.amazon.co.jp/*", "https://www.amazon.co.uk/*", "https://www.amazon.de/*", "https://www.amazon.fr/*", "https://www.amazon.es/*", "https://www.amazon.it/*", "https://www.amazon.ca/*", "https://www.amazon.in/*", "https://www.amazon.com.mx/*", "https://www.amazon.com.au/*", "https://www.amazon.ae/*", "https://www.amazon.nl/*", "https://www.amazon.pl/*", "https://www.amazon.se/*", "https://www.amazon.sa/*", "https://www.amazon.sg/*", "https://www.amazon.com.br/*", "https://www.amazon.com.tr/*", "https://sellercentral.amazon.com/orders*", "https://sellercentral.amazon.co.jp/orders*", "https://sellercentral.amazon.co.uk/orders*", "https://sellercentral.amazon.de/orders*", "https://sellercentral.amazon.fr/orders*", "https://sellercentral.amazon.es/orders*", "https://sellercentral.amazon.it/orders*", "https://sellercentral.amazon.ca/orders*", "https://sellercentral.amazon.in/orders*", "https://sellercentral.amazon.com.mx/orders*", "https://sellercentral.amazon.com.au/orders*", "https://sellercentral.amazon.ae/orders*", "https://sellercentral.amazon.nl/orders*", "https://sellercentral.amazon.se/orders*", "https://sellercentral.amazon.sa/orders*", "https://sellercentral.amazon.sg/orders*", "https://sellercentral-japan.amazon.com/orders*", "https://sellercentral-europe.amazon.com/orders*", "https://sellercentral.amazon.com/amazonsell/orders*", "https://sellercentral.amazon.co.jp/amazonsell/orders*", "https://sellercentral.amazon.co.uk/amazonsell/orders*", "https://sellercentral.amazon.de/amazonsell/orders*", "https://sellercentral.amazon.fr/amazonsell/orders*", "https://sellercentral.amazon.es/amazonsell/orders*", "https://sellercentral.amazon.it/amazonsell/orders*", "https://sellercentral.amazon.ca/amazonsell/orders*", "https://sellercentral.amazon.in/amazonsell/orders*", "https://sellercentral.amazon.com.mx/amazonsell/orders*", "https://sellercentral.amazon.com.au/amazonsell/orders*", "https://sellercentral.amazon.ae/amazonsell/orders*", "https://sellercentral.amazon.nl/amazonsell/orders*", "https://sellercentral.amazon.se/amazonsell/orders*", "https://sellercentral.amazon.sa/amazonsell/orders*", "https://sellercentral.amazon.sg/amazonsell/orders*", "https://sellercentral-japan.amazon.com/amazonsell/orders*", "https://sellercentral-europe.amazon.com/amazonsell/orders*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "assets/inject.ts.js" ],
+      "matches": [ "*://tiktok.com/*", "*://www.tiktok.com/*", "https://www.tiktok.com/*" ],
+      "run_at": "document_start",
+      "world": "MAIN"
+   }, {
+      "all_frames": true,
+      "css": [ "assets/login.css", "assets/content.css" ],
+      "js": [ "assets/content.ts-loader.js" ],
+      "match_about_blank": true,
+      "matches": [ "*://tiktok.com/*", "*://www.tiktok.com/*", "*://www.doubao.com/*", "*://chatgpt.com/*", "*://grok.com/*", "*://claude.ai/*", "*://gemini.google.com/*", "*://chat.deepseek.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "declarative_net_request": {
+      "rule_resources": [ {
+         "enabled": true,
+         "id": "rule-trustwerty",
+         "path": "rules/rule-trustwerty.json"
+      } ]
+   },
+   "default_locale": "en",
+   "description": "__MSG_main_description__",
+   "host_permissions": [ "https://www.amazon.com/*", "https://www.amazon.co.jp/*", "https://www.amazon.co.uk/*", "https://www.amazon.de/*", "https://www.amazon.fr/*", "https://www.amazon.es/*", "https://www.amazon.it/*", "https://www.amazon.ca/*", "https://www.amazon.in/*", "https://www.amazon.com.mx/*", "https://www.amazon.com.au/*", "https://www.amazon.ae/*", "https://www.amazon.nl/*", "https://www.amazon.pl/*", "https://www.amazon.se/*", "https://www.amazon.sa/*", "https://www.amazon.sg/*", "https://www.amazon.com.br/*", "https://www.amazon.com.tr/*", "https://sellercentral.amazon.com/orders*", "https://sellercentral.amazon.co.jp/orders*", "https://sellercentral.amazon.co.uk/orders*", "https://sellercentral.amazon.de/orders*", "https://sellercentral.amazon.fr/orders*", "https://sellercentral.amazon.es/orders*", "https://sellercentral.amazon.it/orders*", "https://sellercentral.amazon.ca/orders*", "https://sellercentral.amazon.in/orders*", "https://sellercentral.amazon.com.mx/orders*", "https://sellercentral.amazon.com.au/orders*", "https://sellercentral.amazon.ae/orders*", "https://sellercentral.amazon.nl/orders*", "https://sellercentral.amazon.se/orders*", "https://sellercentral.amazon.sa/orders*", "https://sellercentral.amazon.sg/orders*", "https://sellercentral-japan.amazon.com/orders*", "https://sellercentral-europe.amazon.com/orders*", "https://sellercentral.amazon.com/amazonsell/orders*", "https://sellercentral.amazon.co.jp/amazonsell/orders*", "https://sellercentral.amazon.co.uk/amazonsell/orders*", "https://sellercentral.amazon.de/amazonsell/orders*", "https://sellercentral.amazon.fr/amazonsell/orders*", "https://sellercentral.amazon.es/amazonsell/orders*", "https://sellercentral.amazon.it/amazonsell/orders*", "https://sellercentral.amazon.ca/amazonsell/orders*", "https://sellercentral.amazon.in/amazonsell/orders*", "https://sellercentral.amazon.com.mx/amazonsell/orders*", "https://sellercentral.amazon.com.au/amazonsell/orders*", "https://sellercentral.amazon.ae/amazonsell/orders*", "https://sellercentral.amazon.nl/amazonsell/orders*", "https://sellercentral.amazon.se/amazonsell/orders*", "https://sellercentral.amazon.sa/amazonsell/orders*", "https://sellercentral.amazon.sg/amazonsell/orders*", "https://sellercentral-japan.amazon.com/amazonsell/orders*", "https://sellercentral-europe.amazon.com/amazonsell/orders*", "https://www.sellersprite.com/*", "https://e.sellersprite.com/*", "https://*.1688.com/*", "https://m.media-amazon.com/*", "https://images-na.ssl-images-amazon.com/*", "https://trustwerty.com/*", "https://www.google-analytics.com/*", "https://translate.googleapis.com/*", "https://trends.google.com/*", "https://api.cognitive.microsofttranslator.com/*", "https://edge.microsoft.com/*", "https://apps.voc.ai/*", "https://www.aya3d.com/*", "*://*.tiktok.com/*", "*://*.kolsprite.com/*", "*://plugin-data.kolsprite.com/*", "*://*.bing.com/ttranslatev3/*", "*://*.tiktokcdn.com/*", "*://*.tiktokcdn-eu.com/*", "*://*.tiktokcdn-us.com/*", "*://*.tiktokv.com/*", "*://*.doubao.com/*", "*://chatgpt.com/*", "*://grok.com/*", "*://claude.ai/*", "*://gemini.google.com/*", "*://chat.deepseek.com/*", "*://tiksave.io/*" ],
+   "icons": {
+      "1024": "assets/images/icons/icon-1024.png",
+      "128": "assets/images/icons/icon-128.png",
+      "16": "assets/images/icons/icon-16.png",
+      "24": "assets/images/icons/icon-24.png",
+      "256": "assets/images/icons/icon-256.png",
+      "32": "assets/images/icons/icon-32.png",
+      "48": "assets/images/icons/icon-48.png",
+      "512": "assets/images/icons/icon-512.png",
+      "64": "assets/images/icons/icon-64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmu2Urk6iqUOSP8zl63fWWxsQJEO9GLxQuh5UD80I1MH/J1fvSaUPoij4lE4Ce2IHqhv9EPUGupxKUH05o73ux2uETk1Ow8vH7ax+n4PdOjLojWhBvLcUYEso86LlNzxYAiFQWx8IenKA9cNnRiyw5WSnJuOZPVSDKdvqS5C8tXXFHropT/737nOvM+/cM3U5d1EprAPIpjjjgUst8XR4ICG++PZufCky8SlIVGE+qc0uZ6OCYyIZOFYUwdoeC2B569WIYOcX9gQfHtcHdtoaUaPb8/bDoNgGaW9D1fdPYvNNIToXCpQP+AJ2IzOZjsyBbGfX7xaeipw3ES3/AQqcWQIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_main_name__",
+   "oauth2": {
+      "client_id": "84356059972-fhtdt93mipsffeil57c9dcoqf3af3996.apps.googleusercontent.com",
+      "scopes": [ "https://accounts.google.com/o/oauth2/v2/auth" ]
+   },
+   "options_page": "options/index.html",
+   "permissions": [ "storage", "tabs", "activeTab", "cookies", "contextMenus", "declarativeNetRequest", "identity", "scripting" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "5.0.4",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "/assets/*" ]
+   } ]
+}

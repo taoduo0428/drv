@@ -1,0 +1,176 @@
+{
+  "relevance_check_my_tpl": {
+    "message": "My Template"
+  },
+  "relevance_check_input_asin": {
+    "message": "Enter ASIN"
+  },
+  "relevance_check_input_keywords": {
+    "message": "Enter Keywords"
+  },
+  "relevance_check_asin_limit": {
+    "message": "Up to 48 competitor ASINs for more accurate results!"
+  },
+  "relevance_check_asin_instructions": {
+    "message": "One ASIN per line. Press Enter to start a new line."
+  },
+  "relevance_check_reminder": {
+    "message": "Friendly Reminder: Instantly filter for highly relevant keywords in one click! Quickly build a core keyword list and stay ahead of the competition. (Tip: Use <span style='color: #FB8C1E;'> 48 competitor ASINs </span>for best results!)"
+  },
+  "relevance_check_new_feature": {
+    "message": "New feature Relevance Check is live! Supports real-time analysis <br> of keyword and competitor relevance. Try it now!"
+  },
+  "relevance_check_keyword_instructions": {
+    "message": "One keyword per line. Press Enter to start a new line."
+  },
+  "relevance_check_example_data": {
+    "message": "Example Relevance Data: "
+  },
+  "relevance_check_example_data_click": {
+    "message": "Click to autofill"
+  },
+  "relevance_check_clear_conditions": {
+    "message": "Clear All Filters"
+  },
+  "relevance_check_select_template": {
+    "message": "Select from Template"
+  },
+  "relevance_check_save_template": {
+    "message": "Save as Template"
+  },
+  "relevance_check_relevance": {
+    "message": "Relevance"
+  },
+  "relevance_check_relevance_tips": {
+    "message": "Relevance is calculated based on the ASIN’s exact positions within the top 96 organic search results for a given keyword.<br>(We capture the top 2 pages for layouts displaying 48 products per page, or the top 6 pages for layouts showing 16 products per page.)<br>High Relevance: ≥ {high}%<br>Medium Relevance: {medium}%–{high}%<br>Low Relevance: {low}%–{medium}%<br>Irrelevant: < {low}%<br>How Relevance is Calculated: <a href='https://www.sellersprite.ai/help/relevance-principle-of-extension' style='color: #FB8C1E;' target='_blank'> Click here </a>",
+    "placeholders": {
+      "high": {
+        "content": "$1",
+        "example": "60"
+      },
+      "medium": {
+        "content": "$2",
+        "example": "20"
+      },
+      "low": {
+        "content": "$3",
+        "example": "5"
+      }
+    }
+  },
+  "relevance_check_template_name": {
+    "message": "Template Title"
+  },
+  "relevance_check_keyword_performance_score": {
+    "message": "Keyword Performance Score"
+  },
+  "relevance_check_keyword_performance_score_tips": {
+    "message": "The Keyword Performance Score (also called Z-score) is calculated using the Z-score formula to evaluate how a keyword performs relative to the average of all queried keywords:<br>Positive value: Keyword performs above average; higher = better<br>Negative value: Keyword performs below average; lower = worse<br>0: Keyword is around average performance<br>How the Keyword Performance Score is Calculated: <a href='https://www.sellersprite.ai/help/keyword-performance-score-of-extension' style='color: #FB8C1E;' target='_blank'> Click here </a>"
+  },
+  "relevance_check_relevance_categories_not_relevant": {
+    "message": "Irrelevant"
+  },
+  "relevance_check_relevance_categories_low": {
+    "message": "Low Relevance"
+  },
+  "relevance_check_relevance_categories_high": {
+    "message": "High Relevance"
+  },
+  "relevance_check_relevance_categories_medium": {
+    "message": "Medium Relevance"
+  },
+  "relevance_check_positive_score": {
+    "message": "Keyword performs above average; higher = better"
+  },
+  "relevance_check_negative_score": {
+    "message": "Keyword performs below average; lower = worse"
+  },
+  "relevance_check_neutral_score": {
+    "message": "Keyword is around average performance"
+  },
+  "relevance_check_irrelevant": {
+    "message": "Irrelevant: < 5%"
+  },
+  "relevance_check_how_relevance_calculated": {
+    "message": "How Relevance is Calculated: Click here"
+  },
+  "relevance_check_high_relevance": {
+    "message": "<span style='color: #FB8C1E;'>Most products </span> under the keyword are highly similar to your selected ASINs → Strong traffic and conversion potential"
+  },
+  "relevance_check_medium_relevance": {
+    "message": "<span style='color: #FB8C1E;'> Some products </span> under the keyword are similar to your selected ASINs → May need optimization"
+  },
+  "relevance_check_low_relevance": {
+    "message": "<span style='color: #FB8C1E;'>Few products </span> under the keyword are similar to your selected ASINs → Limited traffic potential"
+  },
+  "relevance_check_not_relevant_explanation": {
+    "message": "<span style='color:#FB8C1E;'> Very few or no products</span> under the keyword are similar to your selected ASINs → Not recommended"
+  },
+  "relevance_check_total_keywords": {
+    "message": "Processed <span style='color: #FB8C1E;'>{num}</span> keywords",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "0"
+      },
+      "num1": {
+        "content": "$2",
+        "example": "0"
+      }
+    }
+  },
+  "relevance_check_template_success": {
+    "message": "Template saved!"
+  },
+  "relevance_check_template_success_tips": {
+    "message": "You can select it for future queries to save time and effort."
+  },
+  "relevance_check_analysis_progress": {
+    "message": "Keep this page open (5–10 min analysis)"
+  },
+  "relevance_check_template_name_prompt": {
+    "message": "Enter Template Title (Optional)"
+  },
+  "relevance_check_asin_count": {
+    "message": "ASIN Count"
+  },
+  "relevance_check_keyword_count": {
+    "message": "Keyword Count"
+  },
+  "relevance_check_my_tpl_name": {
+    "message": "Template Title"
+  },
+  "relevance_check_my_tpl_create": {
+    "message": "Creation Time"
+  },
+  "relevance_cleared_all": {
+    "message": "All Filters Cleared"
+  },
+  "relevance_check_relevance_percentage": {
+    "message": "Relevance"
+  },
+  "relevance_check_select_template_tips": {
+    "message": "Please select at least one template."
+  },
+  "relevance_check_delete_template_tips": {
+    "message": "Once deleted, the data cannot be recovered. Are you sure you want to delete it?"
+  },
+  "relevance_check_delete_template_confirm": {
+    "message": "Confirm"
+  },
+  "relevance_check_delete_template_cancel": {
+    "message": "Cancel"
+  },
+  "relevance_check_btn_video_href": {
+    "message": "https://www.sellersprite.ai/help/relevance-check-video-tutorial"
+  },
+  "relevance_check_set_rate": {
+    "message": "Enter"
+  },
+  "relevance_check_set_rate_tips": {
+    "message": "Tip: Different product categories may require different relevance thresholds."
+  },
+  "relevance_check_set_warning_tips": {
+    "message": "Please enter a valid value."
+  }
+}

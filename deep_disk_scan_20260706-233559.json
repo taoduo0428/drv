@@ -1,0 +1,2342 @@
+{
+  "generated": "2026-07-06T23:35:59",
+  "c_usage": {
+    "path": "C:\\",
+    "total_bytes": 322122543104,
+    "free_bytes": 114820829184,
+    "used_bytes": 207301713920,
+    "total_human": "300.00 GB",
+    "free_human": "106.94 GB",
+    "used_human": "193.06 GB",
+    "free_percent": 35.6
+  },
+  "d_usage": {
+    "path": "D:\\",
+    "total_bytes": 182229921792,
+    "free_bytes": 110854344704,
+    "used_bytes": 71375577088,
+    "total_human": "169.71 GB",
+    "free_human": "103.24 GB",
+    "used_human": "66.47 GB",
+    "free_percent": 60.8
+  },
+  "c_top": [
+    {
+      "path": "C:\\Users",
+      "size_bytes": 78674909212,
+      "files": 250000,
+      "dirs": 36836,
+      "errors": 14,
+      "skipped": 1,
+      "truncated": true,
+      "elapsed_seconds": 13.255
+    },
+    {
+      "path": "C:\\Program Files",
+      "size_bytes": 15938530614,
+      "files": 47309,
+      "dirs": 4672,
+      "errors": 4,
+      "skipped": 18,
+      "truncated": false,
+      "elapsed_seconds": 1.072
+    },
+    {
+      "path": "C:\\Windows",
+      "size_bytes": 13384530452,
+      "files": 91872,
+      "dirs": 26275,
+      "errors": 9,
+      "skipped": 0,
+      "truncated": true,
+      "elapsed_seconds": 20.814
+    },
+    {
+      "path": "C:\\Program Files (x86)",
+      "size_bytes": 12304303349,
+      "files": 14938,
+      "dirs": 1207,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.315
+    },
+    {
+      "path": "C:\\5ddee7b0b73c09d07f96460afbf9db91",
+      "size_bytes": 7532438918,
+      "files": 1419,
+      "dirs": 231,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.07
+    },
+    {
+      "path": "C:\\hiberfil.sys",
+      "size_bytes": 6784909312,
+      "files": 1,
+      "dirs": 0,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.0
+    },
+    {
+      "path": "C:\\ProgramData",
+      "size_bytes": 2907064807,
+      "files": 5564,
+      "dirs": 2031,
+      "errors": 53,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.449
+    },
+    {
+      "path": "C:\\swapfile.sys",
+      "size_bytes": 268435456,
+      "files": 1,
+      "dirs": 0,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.001
+    },
+    {
+      "path": "C:\\tmp",
+      "size_bytes": 21499868,
+      "files": 8902,
+      "dirs": 1,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.049
+    },
+    {
+      "path": "C:\\DumpStack.log.tmp",
+      "size_bytes": 12288,
+      "files": 1,
+      "dirs": 0,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.0
+    },
+    {
+      "path": "C:\\$Recycle.Bin",
+      "size_bytes": 1263,
+      "files": 11,
+      "dirs": 2,
+      "errors": 1,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.001
+    },
+    {
+      "path": "C:\\Documents and Settings",
+      "size_bytes": 0,
+      "files": 0,
+      "dirs": 0,
+      "errors": 1,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.001
+    },
+    {
+      "path": "C:\\PerfLogs",
+      "size_bytes": 0,
+      "files": 0,
+      "dirs": 0,
+      "errors": 1,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.0
+    },
+    {
+      "path": "C:\\Recovery",
+      "size_bytes": 0,
+      "files": 0,
+      "dirs": 0,
+      "errors": 1,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.0
+    }
+  ],
+  "d_top": [
+    {
+      "path": "D:\\pagefile.sys",
+      "size_bytes": 22778736640,
+      "files": 1,
+      "dirs": 0,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.001
+    },
+    {
+      "path": "D:\\latex",
+      "size_bytes": 9685722328,
+      "files": 244684,
+      "dirs": 17574,
+      "errors": 0,
+      "skipped": 16,
+      "truncated": false,
+      "elapsed_seconds": 16.0
+    },
+    {
+      "path": "D:\\WSL",
+      "size_bytes": 7623094615,
+      "files": 3,
+      "dirs": 2,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.001
+    },
+    {
+      "path": "D:\\OneDrive",
+      "size_bytes": 6857666980,
+      "files": 32959,
+      "dirs": 4912,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 3.331
+    },
+    {
+      "path": "D:\\DTLFolder",
+      "size_bytes": 5473923903,
+      "files": 1058,
+      "dirs": 5,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.035
+    },
+    {
+      "path": "D:\\BaiduNetdisk",
+      "size_bytes": 4829672494,
+      "files": 1052,
+      "dirs": 133,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.26
+    },
+    {
+      "path": "D:\\WPS Office",
+      "size_bytes": 3089015841,
+      "files": 11479,
+      "dirs": 3756,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 1.424
+    },
+    {
+      "path": "D:\\腾讯会议",
+      "size_bytes": 1636292494,
+      "files": 10399,
+      "dirs": 942,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.504
+    },
+    {
+      "path": "D:\\CC",
+      "size_bytes": 1374007598,
+      "files": 36,
+      "dirs": 12,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.012
+    },
+    {
+      "path": "D:\\qq",
+      "size_bytes": 1255064149,
+      "files": 1805,
+      "dirs": 49,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.047
+    },
+    {
+      "path": "D:\\QuarkCloudDrive",
+      "size_bytes": 1251643263,
+      "files": 511,
+      "dirs": 99,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.046
+    },
+    {
+      "path": "D:\\Microsoft VS Code",
+      "size_bytes": 953741804,
+      "files": 6280,
+      "dirs": 1237,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.552
+    },
+    {
+      "path": "D:\\Weixin",
+      "size_bytes": 851333604,
+      "files": 32,
+      "dirs": 1,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.001
+    },
+    {
+      "path": "D:\\QQLive",
+      "size_bytes": 817591111,
+      "files": 6180,
+      "dirs": 1239,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.507
+    },
+    {
+      "path": "D:\\Mineradio",
+      "size_bytes": 406902063,
+      "files": 2327,
+      "dirs": 392,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.163
+    },
+    {
+      "path": "D:\\obsidian",
+      "size_bytes": 366679104,
+      "files": 84,
+      "dirs": 6,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.003
+    },
+    {
+      "path": "D:\\有道",
+      "size_bytes": 361167669,
+      "files": 1165,
+      "dirs": 27,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.028
+    },
+    {
+      "path": "D:\\DTLSoft",
+      "size_bytes": 280981814,
+      "files": 125,
+      "dirs": 16,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.018
+    },
+    {
+      "path": "D:\\雅思哥",
+      "size_bytes": 227474741,
+      "files": 76,
+      "dirs": 3,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.002
+    },
+    {
+      "path": "D:\\Clash Verge",
+      "size_bytes": 137804175,
+      "files": 11,
+      "dirs": 1,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.001
+    },
+    {
+      "path": "D:\\nodejs",
+      "size_bytes": 105469738,
+      "files": 1982,
+      "dirs": 461,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.18
+    },
+    {
+      "path": "D:\\npm-cache",
+      "size_bytes": 75611943,
+      "files": 24,
+      "dirs": 50,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.022
+    },
+    {
+      "path": "D:\\ProgramData",
+      "size_bytes": 1785004,
+      "files": 4,
+      "dirs": 3,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.002
+    },
+    {
+      "path": "D:\\mdbx.dat",
+      "size_bytes": 196608,
+      "files": 1,
+      "dirs": 0,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.001
+    },
+    {
+      "path": "D:\\MineradioCache",
+      "size_bytes": 87463,
+      "files": 6,
+      "dirs": 1,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.001
+    },
+    {
+      "path": "D:\\DumpStack.log.tmp",
+      "size_bytes": 12288,
+      "files": 1,
+      "dirs": 0,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.001
+    },
+    {
+      "path": "D:\\elevoc_dnn_kernel.log",
+      "size_bytes": 2356,
+      "files": 1,
+      "dirs": 0,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.001
+    },
+    {
+      "path": "D:\\.appdata",
+      "size_bytes": 1024,
+      "files": 1,
+      "dirs": 0,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.056
+    },
+    {
+      "path": "D:\\$RECYCLE.BIN",
+      "size_bytes": 321,
+      "files": 2,
+      "dirs": 1,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.001
+    },
+    {
+      "path": "D:\\BaiduNetdiskDownload",
+      "size_bytes": 0,
+      "files": 0,
+      "dirs": 0,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.001
+    },
+    {
+      "path": "D:\\Config.Msi",
+      "size_bytes": 0,
+      "files": 0,
+      "dirs": 0,
+      "errors": 1,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.001
+    },
+    {
+      "path": "D:\\OneDriveTemp",
+      "size_bytes": 0,
+      "files": 0,
+      "dirs": 1,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.001
+    },
+    {
+      "path": "D:\\QLDownload",
+      "size_bytes": 0,
+      "files": 0,
+      "dirs": 0,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.0
+    },
+    {
+      "path": "D:\\QMDownload",
+      "size_bytes": 0,
+      "files": 0,
+      "dirs": 1,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.0
+    },
+    {
+      "path": "D:\\搜狗输入法",
+      "size_bytes": 0,
+      "files": 0,
+      "dirs": 0,
+      "errors": 0,
+      "skipped": 0,
+      "truncated": false,
+      "elapsed_seconds": 0.001
+    }
+  ],
+  "d_scan": {
+    "root": "D:\\",
+    "files_seen": 310329,
+    "dirs_seen": 27536,
+    "errors": 1,
+    "skipped": 17,
+    "truncated": false,
+    "elapsed_seconds": 23.723,
+    "candidates": [
+      {
+        "path": "D:\\WSL\\Backup\\Ubuntu.tar",
+        "kind": "installer-archive",
+        "risk": "需确认",
+        "size_bytes": 1511956480,
+        "modified": "2026-05-07T00:32:21",
+        "reason": "large installer/archive package",
+        "size_human": "1.41 GB"
+      },
+      {
+        "path": "D:\\CC\\node_modules",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 1373998519,
+        "modified": "2026-06-05T13:03:52",
+        "reason": "project dependency directory; only remove if project can reinstall dependencies",
+        "size_human": "1.28 GB"
+      },
+      {
+        "path": "D:\\DTLFolder\\DriversBackup\\NVIDIA GeForce RTX 3050 Ti Laptop GPU_32.0.15.9636_2026-05-23 15 22 14.zip",
+        "kind": "installer-archive",
+        "risk": "需确认",
+        "size_bytes": 1221296686,
+        "modified": "2026-05-23T15:23:44",
+        "reason": "large installer/archive package",
+        "size_human": "1.14 GB"
+      },
+      {
+        "path": "D:\\DTLFolder\\DriversDownLoad\\9A16B8482986520384BA5CD88B8B1217.7z",
+        "kind": "installer-archive",
+        "risk": "需确认",
+        "size_bytes": 1082460050,
+        "modified": "2026-05-23T15:22:07",
+        "reason": "large installer/archive package",
+        "size_human": "1.01 GB"
+      },
+      {
+        "path": "D:\\DTLFolder\\DriversBackup\\NVIDIA GeForce RTX 3050 Ti Laptop GPU_31.0.15.4630_2026-05-04 18 17 12.zip",
+        "kind": "installer-archive",
+        "risk": "需确认",
+        "size_bytes": 826303350,
+        "modified": "2026-05-04T18:17:41",
+        "reason": "large installer/archive package",
+        "size_human": "788.02 MB"
+      },
+      {
+        "path": "D:\\OneDrive\\文档\\xwechat_files\\wxid_urovbkkpo2jk22_bb4e\\msg\\file\\2026-06\\2023312312邹佳立(2).zip",
+        "kind": "installer-archive",
+        "risk": "需确认",
+        "size_bytes": 448174804,
+        "modified": "2026-06-27T15:21:41",
+        "reason": "large installer/archive package",
+        "size_human": "427.41 MB"
+      },
+      {
+        "path": "D:\\Mineradio\\Mineradio.exe",
+        "kind": "installer-archive",
+        "risk": "需确认",
+        "size_bytes": 232300032,
+        "modified": "2026-06-26T00:03:26",
+        "reason": "large installer/archive package",
+        "size_human": "221.54 MB"
+      },
+      {
+        "path": "D:\\OneDrive\\文档\\xwechat_files\\wxid_urovbkkpo2jk22_bb4e\\msg\\file\\2026-07\\zjl项目(1).zip",
+        "kind": "installer-archive",
+        "risk": "需确认",
+        "size_bytes": 231433729,
+        "modified": "2026-07-05T14:51:22",
+        "reason": "large installer/archive package",
+        "size_human": "220.71 MB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\node_modules",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 220243981,
+        "modified": "2026-07-03T02:20:56",
+        "reason": "project dependency directory; only remove if project can reinstall dependencies",
+        "size_human": "210.04 MB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\Code.exe",
+        "kind": "installer-archive",
+        "risk": "需确认",
+        "size_bytes": 218126144,
+        "modified": "2026-06-30T09:26:20",
+        "reason": "large installer/archive package",
+        "size_human": "208.02 MB"
+      },
+      {
+        "path": "D:\\OneDrive\\文档\\xwechat_files\\wxid_urovbkkpo2jk22_bb4e\\msg\\file\\2026-05\\codex-backup-20260427-012403.tar.gz",
+        "kind": "installer-archive",
+        "risk": "需确认",
+        "size_bytes": 215282882,
+        "modified": "2026-05-04T16:01:54",
+        "reason": "large installer/archive package",
+        "size_human": "205.31 MB"
+      },
+      {
+        "path": "D:\\obsidian\\Obsidian.exe",
+        "kind": "installer-archive",
+        "risk": "需确认",
+        "size_bytes": 210940360,
+        "modified": "2026-03-23T23:18:04",
+        "reason": "large installer/archive package",
+        "size_human": "201.17 MB"
+      },
+      {
+        "path": "D:\\OneDrive\\文档\\xwechat_files\\wxid_urovbkkpo2jk22_bb4e\\msg\\file\\2026-07\\zjl项目.zip",
+        "kind": "installer-archive",
+        "risk": "需确认",
+        "size_bytes": 193549355,
+        "modified": "2026-07-03T10:18:23",
+        "reason": "large installer/archive package",
+        "size_human": "184.58 MB"
+      },
+      {
+        "path": "D:\\qq\\versions\\9.9.30-48762-9.9.31-49738.zip",
+        "kind": "installer-archive",
+        "risk": "需确认",
+        "size_bytes": 181175664,
+        "modified": "2026-06-20T09:16:56",
+        "reason": "large installer/archive package",
+        "size_human": "172.78 MB"
+      },
+      {
+        "path": "D:\\雅思哥\\yasige\\雅思哥机考软件.exe",
+        "kind": "installer-archive",
+        "risk": "需确认",
+        "size_bytes": 154057728,
+        "modified": "2026-02-14T15:00:04",
+        "reason": "large installer/archive package",
+        "size_human": "146.92 MB"
+      },
+      {
+        "path": "D:\\BaiduNetdisk\\module\\BrowserEngine\\BaiduNetdiskUnite.exe",
+        "kind": "installer-archive",
+        "risk": "需确认",
+        "size_bytes": 136400368,
+        "modified": "2026-07-03T13:54:38",
+        "reason": "large installer/archive package",
+        "size_human": "130.08 MB"
+      },
+      {
+        "path": "D:\\OneDrive\\文档\\xwechat_files\\wxid_urovbkkpo2jk22_bb4e\\cache",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 132810712,
+        "modified": "2026-07-03T14:04:35",
+        "reason": "application cache directory; app-specific review needed",
+        "size_human": "126.66 MB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\copilot\\node_modules",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 60380492,
+        "modified": "2026-07-03T02:20:31",
+        "reason": "project dependency directory; only remove if project can reinstall dependencies",
+        "size_human": "57.58 MB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\copilot\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 55884864,
+        "modified": "2026-07-03T02:20:28",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "53.30 MB"
+      },
+      {
+        "path": "D:\\Mineradio\\resources\\app\\node_modules",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 31710576,
+        "modified": "2026-07-01T02:40:54",
+        "reason": "project dependency directory; only remove if project can reinstall dependencies",
+        "size_human": "30.24 MB"
+      },
+      {
+        "path": "D:\\OneDrive\\文档\\Tencent Files\\488424574\\nt_qq\\nt_data\\log",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 21878792,
+        "modified": "2026-07-06T23:00:00",
+        "reason": "application log directory; app-specific review needed",
+        "size_human": "20.87 MB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\node_modules",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 17464603,
+        "modified": "2026-07-03T02:20:36",
+        "reason": "project dependency directory; only remove if project can reinstall dependencies",
+        "size_human": "16.66 MB"
+      },
+      {
+        "path": "D:\\nodejs\\node_modules",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 12922680,
+        "modified": "2026-06-28T22:45:03",
+        "reason": "project dependency directory; only remove if project can reinstall dependencies",
+        "size_human": "12.32 MB"
+      },
+      {
+        "path": "D:\\QuarkCloudDrive\\6.5.5.724\\Resources\\app.asar.unpacked\\node_modules",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 10092232,
+        "modified": "2026-05-04T15:07:53",
+        "reason": "project dependency directory; only remove if project can reinstall dependencies",
+        "size_human": "9.62 MB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\fonts\\cache",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 7608679,
+        "modified": "2026-05-20T18:54:01",
+        "reason": "application cache directory; app-specific review needed",
+        "size_human": "7.26 MB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\microsoft-authentication\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 3984795,
+        "modified": "2026-07-03T02:20:35",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "3.80 MB"
+      },
+      {
+        "path": "D:\\WPS Office\\12.1.0.26895\\office6\\addons\\kpubaigcbox\\res\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 3704218,
+        "modified": "2026-06-04T20:01:25",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "3.53 MB"
+      },
+      {
+        "path": "D:\\WPS Office\\12.1.0.26375\\office6\\addons\\kpubaigcbox\\res\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 3703810,
+        "modified": "2026-05-14T19:21:14",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "3.53 MB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\markdown-language-features\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 3141989,
+        "modified": "2026-07-03T02:20:33",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "3.00 MB"
+      },
+      {
+        "path": "D:\\OneDrive\\文档\\xwechat_files\\wxid_urovbkkpo2jk22_bb4e\\business\\favorite\\temp",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 2988045,
+        "modified": "2026-07-06T17:53:34",
+        "reason": "temporary directory; app-specific review needed",
+        "size_human": "2.85 MB"
+      },
+      {
+        "path": "D:\\WPS Office\\12.1.0.26895\\office6\\addons\\kpdfaigcbox\\res\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 1825175,
+        "modified": "2026-06-04T20:01:20",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "1.74 MB"
+      },
+      {
+        "path": "D:\\WPS Office\\12.1.0.26375\\office6\\addons\\kpdfaigcbox\\res\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 1825175,
+        "modified": "2026-05-14T19:21:10",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "1.74 MB"
+      },
+      {
+        "path": "D:\\WPS Office\\12.1.0.26375\\office6\\addons\\wpsbox\\mui\\default\\html\\wpsclouddisk\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 1817144,
+        "modified": "2026-05-14T19:21:59",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "1.73 MB"
+      },
+      {
+        "path": "D:\\WPS Office\\12.1.0.26895\\office6\\addons\\wpsbox\\mui\\default\\html\\wpsclouddisk\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 1816976,
+        "modified": "2026-06-04T20:02:11",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "1.73 MB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\html-language-features\\server\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 1705664,
+        "modified": "2026-07-03T02:20:32",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "1.63 MB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\terminal-suggest\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 1478317,
+        "modified": "2026-07-03T02:20:37",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "1.41 MB"
+      },
+      {
+        "path": "D:\\BaiduNetdisk\\sysres\\YunShellCommand64.dll.old",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 1345008,
+        "modified": "2026-05-31T21:03:34",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "1.28 MB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\install-tl.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 1280998,
+        "modified": "2026-05-20T18:54:04",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "1.22 MB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\updmap.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 1270965,
+        "modified": "2026-05-20T18:46:53",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "1.21 MB"
+      },
+      {
+        "path": "D:\\WPS Office\\12.1.0.26375\\office6\\addons\\karticlewebcloudsummary\\mui\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 1246953,
+        "modified": "2026-05-14T19:20:53",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "1.19 MB"
+      },
+      {
+        "path": "D:\\WPS Office\\12.1.0.26895\\office6\\addons\\karticlewebcloudsummary\\mui\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 1246801,
+        "modified": "2026-06-04T20:01:07",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "1.19 MB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\css-language-features\\server\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 1233879,
+        "modified": "2026-07-03T02:20:32",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "1.18 MB"
+      },
+      {
+        "path": "D:\\WPS Office\\12.1.0.26895\\office6\\addons\\kmultcatalog\\res\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 1082432,
+        "modified": "2026-06-04T20:01:18",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "1.03 MB"
+      },
+      {
+        "path": "D:\\WPS Office\\12.1.0.26375\\office6\\addons\\kmultcatalog\\res\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 1082432,
+        "modified": "2026-05-14T19:21:07",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "1.03 MB"
+      },
+      {
+        "path": "D:\\WPS Office\\12.1.0.26895\\office6\\addons\\yunbox\\mui\\default\\html\\cloudsettingsdlg\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 1062136,
+        "modified": "2026-06-04T20:02:12",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "1.01 MB"
+      },
+      {
+        "path": "D:\\WPS Office\\12.1.0.26895\\office6\\addons\\wpsbox\\mui\\default\\html\\cloudsettingsdlg\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 1062136,
+        "modified": "2026-06-04T20:02:09",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "1.01 MB"
+      },
+      {
+        "path": "D:\\WPS Office\\12.1.0.26375\\office6\\addons\\yunbox\\mui\\default\\html\\cloudsettingsdlg\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 1062136,
+        "modified": "2026-05-14T19:22:00",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "1.01 MB"
+      },
+      {
+        "path": "D:\\WPS Office\\12.1.0.26375\\office6\\addons\\wpsbox\\mui\\default\\html\\cloudsettingsdlg\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 1062136,
+        "modified": "2026-05-14T19:21:58",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "1.01 MB"
+      },
+      {
+        "path": "D:\\WPS Office\\12.1.0.26895\\office6\\addons\\yunbox\\mui\\default\\html\\folderselector\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 871366,
+        "modified": "2026-06-04T20:02:12",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "850.94 KB"
+      },
+      {
+        "path": "D:\\WPS Office\\12.1.0.26895\\office6\\addons\\wpsbox\\mui\\default\\html\\folderselector\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 871366,
+        "modified": "2026-06-04T20:02:09",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "850.94 KB"
+      },
+      {
+        "path": "D:\\WPS Office\\12.1.0.26895\\office6\\addons\\kwpscloudmodule\\mui\\default\\html\\folderselector\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 871366,
+        "modified": "2026-06-04T20:01:45",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "850.94 KB"
+      },
+      {
+        "path": "D:\\WPS Office\\12.1.0.26375\\office6\\addons\\yunbox\\mui\\default\\html\\folderselector\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 871366,
+        "modified": "2026-05-14T19:22:00",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "850.94 KB"
+      },
+      {
+        "path": "D:\\WPS Office\\12.1.0.26375\\office6\\addons\\wpsbox\\mui\\default\\html\\folderselector\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 871366,
+        "modified": "2026-05-14T19:21:58",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "850.94 KB"
+      },
+      {
+        "path": "D:\\WPS Office\\12.1.0.26375\\office6\\addons\\kwpscloudmodule\\mui\\default\\html\\folderselector\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 871366,
+        "modified": "2026-05-14T19:21:34",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "850.94 KB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\git\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 760691,
+        "modified": "2026-07-03T02:20:32",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "742.86 KB"
+      },
+      {
+        "path": "D:\\OneDrive\\文档\\xwechat_files\\wxid_urovbkkpo2jk22_bb4e\\temp",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 699489,
+        "modified": "2026-07-06T17:53:44",
+        "reason": "temporary directory; app-specific review needed",
+        "size_human": "683.09 KB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\json-language-features\\client\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 652351,
+        "modified": "2026-07-03T02:20:32",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "637.06 KB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\html-language-features\\client\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 624722,
+        "modified": "2026-07-03T02:20:32",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "610.08 KB"
+      },
+      {
+        "path": "D:\\WPS Office\\12.1.0.26895\\office6\\addons\\wpsbox\\mui\\default\\html\\cachemove\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 523420,
+        "modified": "2026-06-04T20:02:09",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "511.15 KB"
+      },
+      {
+        "path": "D:\\WPS Office\\12.1.0.26375\\office6\\addons\\wpsbox\\mui\\default\\html\\cachemove\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 523420,
+        "modified": "2026-05-14T19:21:58",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "511.15 KB"
+      },
+      {
+        "path": "D:\\WPS Office\\12.1.0.26895\\office6\\addons\\yunbox\\mui\\default\\html\\fileradar\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 493764,
+        "modified": "2026-06-04T20:02:12",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "482.19 KB"
+      },
+      {
+        "path": "D:\\WPS Office\\12.1.0.26895\\office6\\addons\\wpsbox\\mui\\default\\html\\fileradar\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 493764,
+        "modified": "2026-06-04T20:02:09",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "482.19 KB"
+      },
+      {
+        "path": "D:\\WPS Office\\12.1.0.26375\\office6\\addons\\yunbox\\mui\\default\\html\\fileradar\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 493764,
+        "modified": "2026-05-14T19:22:00",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "482.19 KB"
+      },
+      {
+        "path": "D:\\WPS Office\\12.1.0.26375\\office6\\addons\\wpsbox\\mui\\default\\html\\fileradar\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 493764,
+        "modified": "2026-05-14T19:21:58",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "482.19 KB"
+      },
+      {
+        "path": "D:\\WPS Office\\12.1.0.26895\\office6\\addons\\qing\\mui\\default\\res\\trusteddevice\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 490912,
+        "modified": "2026-06-04T20:01:59",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "479.41 KB"
+      },
+      {
+        "path": "D:\\WPS Office\\12.1.0.26375\\office6\\addons\\qing\\mui\\default\\res\\trusteddevice\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 490912,
+        "modified": "2026-05-14T19:21:47",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "479.41 KB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\typescript-language-features\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 483255,
+        "modified": "2026-07-03T02:20:37",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "471.93 KB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\css-language-features\\client\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 454482,
+        "modified": "2026-07-03T02:20:31",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "443.83 KB"
+      },
+      {
+        "path": "D:\\OneDrive\\文档\\Tencent Files\\nt_qq\\global\\nt_data\\Log",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 454469,
+        "modified": "2026-05-20T10:29:54",
+        "reason": "application log directory; app-specific review needed",
+        "size_human": "443.82 KB"
+      },
+      {
+        "path": "D:\\BaiduNetdisk\\install.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 409170,
+        "modified": "2026-05-05T11:11:32",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "399.58 KB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\extension-editing\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 370784,
+        "modified": "2026-07-03T02:20:32",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "362.09 KB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\json-language-features\\server\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 363904,
+        "modified": "2026-07-03T02:20:32",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "355.38 KB"
+      },
+      {
+        "path": "D:\\Mineradio\\resources\\app\\build",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 319811,
+        "modified": "2026-07-01T02:40:27",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "312.32 KB"
+      },
+      {
+        "path": "D:\\obsidian\\resources\\app.asar.unpacked\\node_modules",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 311980,
+        "modified": "2026-05-24T22:28:33",
+        "reason": "project dependency directory; only remove if project can reinstall dependencies",
+        "size_human": "304.67 KB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\github\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 301815,
+        "modified": "2026-07-03T02:20:32",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "294.74 KB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\markdown-math\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 279550,
+        "modified": "2026-07-03T02:20:33",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "273.00 KB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\node_modules.asar.unpacked\\vsda\\build",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 267584,
+        "modified": "2026-07-03T02:20:56",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "261.31 KB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\emmet\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 232623,
+        "modified": "2026-07-03T02:20:32",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "227.17 KB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\php-language-features\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 223356,
+        "modified": "2026-07-03T02:20:37",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "218.12 KB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\github-authentication\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 214004,
+        "modified": "2026-07-03T02:20:32",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "208.99 KB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\npm\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 191497,
+        "modified": "2026-07-03T02:20:37",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "187.01 KB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\merge-conflict\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 187083,
+        "modified": "2026-07-03T02:20:33",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "182.70 KB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\ipynb\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 175980,
+        "modified": "2026-07-03T02:20:32",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "171.86 KB"
+      },
+      {
+        "path": "D:\\OneDrive\\文档\\xwechat_files\\wxid_urovbkkpo2jk22_bb4e\\business\\emoticon\\Temp",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 165473,
+        "modified": "2026-07-06T18:00:44",
+        "reason": "temporary directory; app-specific review needed",
+        "size_human": "161.59 KB"
+      },
+      {
+        "path": "D:\\WPS Office\\12.1.0.26895\\office6\\addons\\kpdfcorporateglossary\\res\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 150334,
+        "modified": "2026-06-04T20:01:21",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "146.81 KB"
+      },
+      {
+        "path": "D:\\WPS Office\\12.1.0.26375\\office6\\addons\\kpdfcorporateglossary\\res\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 150334,
+        "modified": "2026-05-14T19:21:10",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "146.81 KB"
+      },
+      {
+        "path": "D:\\OneDrive\\文档\\xwechat_files\\wxid_urovbkkpo2jk22_bb4e\\msg\\file\\2026-06\\2023312312邹佳立(1)\\2023312312邹佳立\\信鸽\\信鸽虹膜识别系统_代码\\信鸽虹膜识别系统\\android\\build",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 127934,
+        "modified": "2026-06-27T14:56:08",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "124.94 KB"
+      },
+      {
+        "path": "D:\\OneDrive\\文档\\xwechat_files\\wxid_urovbkkpo2jk22_bb4e\\msg\\file\\2026-06\\2023312312邹佳立\\2023312312邹佳立\\信鸽\\信鸽虹膜识别系统_代码\\信鸽虹膜识别系统\\android\\build",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 127934,
+        "modified": "2026-06-27T14:39:49",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "124.94 KB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\configuration-editing\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 127786,
+        "modified": "2026-07-03T02:20:26",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "124.79 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\pdftex\\jadetex.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 123248,
+        "modified": "2026-05-20T18:48:30",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "120.36 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\pdftex\\pdfjadetex.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 123053,
+        "modified": "2026-05-20T18:52:24",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "120.17 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\pdftex\\pdfxmltex.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 94434,
+        "modified": "2026-05-20T18:49:45",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "92.22 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\pdftex\\pdflatex-dev.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 94351,
+        "modified": "2026-05-20T18:50:12",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "92.14 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\pdftex\\xmltex.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 94234,
+        "modified": "2026-05-20T18:49:01",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "92.03 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\pdftex\\latex-dev.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 94154,
+        "modified": "2026-05-20T18:51:23",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "91.95 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\pdftex\\pdflatex.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 94154,
+        "modified": "2026-05-20T18:50:34",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "91.95 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\pdftex\\latex.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 93957,
+        "modified": "2026-05-20T18:49:30",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "91.75 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\euptex\\uplatex-dev.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 93602,
+        "modified": "2026-05-20T18:50:49",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "91.41 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\euptex\\uplatex.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 93405,
+        "modified": "2026-05-20T18:51:07",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "91.22 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\euptex\\platex-dev.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 91440,
+        "modified": "2026-05-20T18:49:20",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "89.30 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\euptex\\platex.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 91243,
+        "modified": "2026-05-20T18:52:14",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "89.10 KB"
+      },
+      {
+        "path": "D:\\WPS Office\\12.1.0.26895\\office6\\addons\\ktransferhelper\\mui\\default\\html\\img\\node_modules",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 86389,
+        "modified": "2026-06-04T20:01:33",
+        "reason": "project dependency directory; only remove if project can reinstall dependencies",
+        "size_human": "84.36 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\pdftex\\mllatex.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 73863,
+        "modified": "2026-05-20T18:48:52",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "72.13 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\xetex\\xelatex-dev.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 72506,
+        "modified": "2026-05-20T18:51:51",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "70.81 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\xetex\\xelatex.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 72317,
+        "modified": "2026-05-20T18:51:38",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "70.62 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\luahbtex\\lualatex-dev.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 48949,
+        "modified": "2026-05-20T18:48:09",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "47.80 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\luatex\\dvilualatex-dev.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 48837,
+        "modified": "2026-05-20T18:50:20",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "47.69 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\luahbtex\\lualatex.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 48760,
+        "modified": "2026-05-20T18:52:01",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "47.62 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\luatex\\dvilualatex.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 48648,
+        "modified": "2026-05-20T18:48:40",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "47.51 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\pdftex\\cont-en.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 45997,
+        "modified": "2026-05-20T18:49:52",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "44.92 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\xetex\\cont-en.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 43313,
+        "modified": "2026-05-20T18:49:55",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "42.30 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\pdftex\\pdfetex.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 35120,
+        "modified": "2026-05-20T18:48:19",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "34.30 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\pdftex\\pdftex.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 35116,
+        "modified": "2026-05-20T18:47:45",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "34.29 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\pdftex\\etex.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 34776,
+        "modified": "2026-05-20T18:48:33",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "33.96 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\hitex\\hitex.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 33048,
+        "modified": "2026-05-20T18:47:24",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "32.27 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\xetex\\xetex.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 31789,
+        "modified": "2026-05-20T18:47:35",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "31.04 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\pdftex\\eplain.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 29679,
+        "modified": "2026-05-20T18:49:06",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "28.98 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\euptex\\eptex.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 29479,
+        "modified": "2026-05-20T18:50:15",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "28.79 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\euptex\\euptex.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 29335,
+        "modified": "2026-05-20T18:47:53",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "28.65 KB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\git\\node_modules",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 28756,
+        "modified": "2026-07-03T02:20:32",
+        "reason": "project dependency directory; only remove if project can reinstall dependencies",
+        "size_human": "28.08 KB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\media-preview\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 27930,
+        "modified": "2026-07-03T02:20:33",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "27.28 KB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\references-view\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 27783,
+        "modified": "2026-07-03T02:20:37",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "27.13 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-dist\\doc\\latex\\nicetext\\CHANGE.LOG",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 21659,
+        "modified": "2026-05-20T18:02:04",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "21.15 KB"
+      },
+      {
+        "path": "D:\\OneDrive\\文档\\Tencent Files\\nt_qq\\global\\nt_data\\Emoji\\emoji-resource\\emoji_res\\.DS_Store",
+        "kind": "temp-file",
+        "risk": "低风险",
+        "size_bytes": 20484,
+        "modified": "2026-05-20T10:30:20",
+        "reason": "temporary/cache marker file",
+        "size_human": "20.00 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-dist\\doc\\latex\\skeyval\\skeyval-view-pokayoke1.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 19396,
+        "modified": "2026-05-20T18:22:00",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "18.94 KB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\mermaid-markdown-features\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 15030,
+        "modified": "2026-07-03T02:20:33",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "14.68 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-dist\\doc\\latex\\titlesec\\CHANGES.old",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 13413,
+        "modified": "2026-05-20T18:32:41",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "13.10 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\luahbtex\\optex.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 12929,
+        "modified": "2026-05-20T18:51:54",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "12.63 KB"
+      },
+      {
+        "path": "D:\\DumpStack.log.tmp",
+        "kind": "temp-file",
+        "risk": "低风险",
+        "size_bytes": 12288,
+        "modified": "2026-07-05T00:20:04",
+        "reason": "temporary/cache marker file",
+        "size_human": "12.00 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-dist\\doc\\latex\\latex-web-companion\\ch4\\latexexa.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 11988,
+        "modified": "2026-05-20T17:53:27",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "11.71 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\tlpkg\\tlperl\\site\\lib\\Module\\Build",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 11679,
+        "modified": "2026-05-20T17:21:07",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "11.41 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-dist\\doc\\latex\\pgf-umlsd\\demo\\customize.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 10222,
+        "modified": "2026-05-20T18:07:11",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "9.98 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-dist\\doc\\latex\\pgf-umlsd\\demo\\threadbias.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 10185,
+        "modified": "2026-05-20T18:07:11",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "9.95 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-dist\\doc\\latex\\latex-web-companion\\ch2\\latexexa.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 9574,
+        "modified": "2026-05-20T17:53:27",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "9.35 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-dist\\doc\\latex\\pgf-umlsd\\demo\\postlevel.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 8454,
+        "modified": "2026-05-20T18:07:11",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "8.26 KB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\git-base\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 7942,
+        "modified": "2026-07-03T02:20:32",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "7.76 KB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\tunnel-forwarding\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 7354,
+        "modified": "2026-07-03T02:20:37",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "7.18 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\luajithbtex\\luajithbtex.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 7326,
+        "modified": "2026-05-20T18:47:40",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "7.15 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\luajittex\\luajittex.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 7314,
+        "modified": "2026-05-20T18:48:01",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "7.14 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\luahbtex\\luahbtex.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 7308,
+        "modified": "2026-05-20T18:47:57",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "7.14 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\luatex\\luatex.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 7296,
+        "modified": "2026-05-20T18:47:48",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "7.12 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\luatex\\dviluatex.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 7188,
+        "modified": "2026-05-20T18:50:23",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "7.02 KB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\simple-browser\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 7082,
+        "modified": "2026-07-03T02:20:37",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "6.92 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\pdftex\\texsis.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 6902,
+        "modified": "2026-05-20T18:49:47",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "6.74 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-dist\\doc\\latex\\regstats\\regstats-example.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 6430,
+        "modified": "2026-05-20T18:16:25",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "6.28 KB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\debug-server-ready\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 6320,
+        "modified": "2026-07-03T02:20:32",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "6.17 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\pdftex\\pdfcsplain.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 6253,
+        "modified": "2026-05-20T18:50:00",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "6.11 KB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\gulp\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 6205,
+        "modified": "2026-07-03T02:20:32",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "6.06 KB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\grunt\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 6205,
+        "modified": "2026-07-03T02:20:32",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "6.06 KB"
+      },
+      {
+        "path": "D:\\OneDrive\\文档\\Tencent Files\\488424574\\nt_qq\\nt_data\\Emoji\\BaseEmojiSyastems\\EmojiSystermResource\\479\\lottie\\.DS_Store",
+        "kind": "temp-file",
+        "risk": "低风险",
+        "size_bytes": 6148,
+        "modified": "2026-07-03T16:08:55",
+        "reason": "temporary/cache marker file",
+        "size_human": "6.00 KB"
+      },
+      {
+        "path": "D:\\OneDrive\\文档\\Tencent Files\\488424574\\nt_qq\\nt_data\\Emoji\\BaseEmojiSyastems\\EmojiSystermResource\\478\\lottie\\.DS_Store",
+        "kind": "temp-file",
+        "risk": "低风险",
+        "size_bytes": 6148,
+        "modified": "2026-07-03T16:08:55",
+        "reason": "temporary/cache marker file",
+        "size_human": "6.00 KB"
+      },
+      {
+        "path": "D:\\OneDrive\\文档\\Tencent Files\\488424574\\nt_qq\\nt_data\\Emoji\\BaseEmojiSyastems\\EmojiSystermResource\\477\\lottie\\.DS_Store",
+        "kind": "temp-file",
+        "risk": "低风险",
+        "size_bytes": 6148,
+        "modified": "2026-07-03T16:08:55",
+        "reason": "temporary/cache marker file",
+        "size_human": "6.00 KB"
+      },
+      {
+        "path": "D:\\OneDrive\\文档\\Tencent Files\\488424574\\nt_qq\\nt_data\\Emoji\\BaseEmojiSyastems\\EmojiSystermResource\\476\\lottie\\.DS_Store",
+        "kind": "temp-file",
+        "risk": "低风险",
+        "size_bytes": 6148,
+        "modified": "2026-07-03T16:08:55",
+        "reason": "temporary/cache marker file",
+        "size_human": "6.00 KB"
+      },
+      {
+        "path": "D:\\OneDrive\\文档\\Tencent Files\\488424574\\nt_qq\\nt_data\\Emoji\\BaseEmojiSyastems\\EmojiSystermResource\\475\\lottie\\.DS_Store",
+        "kind": "temp-file",
+        "risk": "低风险",
+        "size_bytes": 6148,
+        "modified": "2026-07-03T16:08:55",
+        "reason": "temporary/cache marker file",
+        "size_human": "6.00 KB"
+      },
+      {
+        "path": "D:\\OneDrive\\文档\\Tencent Files\\488424574\\nt_qq\\nt_data\\Emoji\\BaseEmojiSyastems\\EmojiSystermResource\\474\\lottie\\.DS_Store",
+        "kind": "temp-file",
+        "risk": "低风险",
+        "size_bytes": 6148,
+        "modified": "2026-07-03T16:08:55",
+        "reason": "temporary/cache marker file",
+        "size_human": "6.00 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-dist\\tex\\latex\\fixme\\layouts\\target",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 6133,
+        "modified": "2026-05-20T17:39:59",
+        "reason": "build output; can be large but may be expensive to rebuild",
+        "size_human": "5.99 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\pdftex\\csplain.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 5989,
+        "modified": "2026-05-20T18:49:32",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "5.85 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\tex\\lollipop.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 5877,
+        "modified": "2026-05-20T18:51:57",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "5.74 KB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\debug-auto-launch\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 5813,
+        "modified": "2026-07-03T02:20:32",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "5.68 KB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\jake\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 5793,
+        "modified": "2026-07-03T02:20:32",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "5.66 KB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\search-result\\dist",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 5241,
+        "modified": "2026-07-03T02:20:37",
+        "reason": "build output; keep if release artifacts live only here",
+        "size_human": "5.12 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-dist\\tex\\latex\\fixme\\layouts\\env",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 4532,
+        "modified": "2026-05-20T17:39:59",
+        "reason": "Python virtual environment; only remove if dependencies are tracked",
+        "size_human": "4.43 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\xetex\\pdfcsplain.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 4327,
+        "modified": "2026-05-20T18:50:02",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "4.23 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\pdftex\\utf8mex.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 4192,
+        "modified": "2026-05-20T18:49:03",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "4.09 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\pdftex\\mptopdf.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 4095,
+        "modified": "2026-05-20T18:51:26",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "4.00 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\pdftex\\pdfmex.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 4063,
+        "modified": "2026-05-20T18:48:11",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "3.97 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-dist\\doc\\lualatex\\makecookbook\\README.old",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 4020,
+        "modified": "2026-05-20T17:57:27",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "3.93 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-dist\\doc\\latex\\cweb-latex\\examples\\compare\\wcltx.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 3974,
+        "modified": "2026-05-20T17:33:11",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "3.88 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\pdftex\\mex.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 3866,
+        "modified": "2026-05-20T18:48:13",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "3.78 KB"
+      },
+      {
+        "path": "D:\\Microsoft VS Code\\4fe60c8b1c\\resources\\app\\extensions\\log",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 3822,
+        "modified": "2026-07-03T02:20:32",
+        "reason": "application log directory; app-specific review needed",
+        "size_human": "3.73 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\luatex\\luacsplain.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 3796,
+        "modified": "2026-05-20T18:48:15",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "3.71 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\luatex\\pdfcsplain.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 3796,
+        "modified": "2026-05-20T18:49:57",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "3.71 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\pdftex\\amstex.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 3472,
+        "modified": "2026-05-20T18:49:34",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "3.39 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\euptex\\ptex.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 3424,
+        "modified": "2026-05-20T18:49:36",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "3.34 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\euptex\\uptex.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 3259,
+        "modified": "2026-05-20T18:51:41",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "3.18 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\pdftex\\mltex.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 2895,
+        "modified": "2026-05-20T18:48:36",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "2.83 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\aleph\\aleph.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 2835,
+        "modified": "2026-05-20T18:47:27",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "2.77 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\tex\\tex.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 2597,
+        "modified": "2026-05-20T18:48:04",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "2.54 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\tlpkg\\tlperl\\site\\lib\\Test\\Deep\\Cache",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 2064,
+        "modified": "2026-05-20T17:21:07",
+        "reason": "application cache directory; app-specific review needed",
+        "size_human": "2.02 KB"
+      },
+      {
+        "path": "D:\\WPS Office\\12.1.0.26375\\office6\\ksomisc.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 1882,
+        "modified": "2026-05-21T00:58:00",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "1.84 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-dist\\doc\\generic\\t2\\etc\\rubibtex\\rubibtex.old",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 1637,
+        "modified": "2026-05-20T18:25:57",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "1.60 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-dist\\doc\\latex\\pst-eucl-translation-bg\\Exemples\\arc_in.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 1235,
+        "modified": "2026-05-20T18:11:44",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "1.21 KB"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-var\\web2c\\metafont\\mf.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 974,
+        "modified": "2026-05-20T18:51:11",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "974 B"
+      },
+      {
+        "path": "D:\\$RECYCLE.BIN",
+        "kind": "recycle-bin",
+        "risk": "需确认",
+        "size_bytes": 321,
+        "modified": "2026-05-04T15:08:10",
+        "reason": "Recycle Bin on D drive; safe for system but may contain restorable user files",
+        "size_human": "321 B"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-dist\\doc\\latex\\interactiveworkbook\\epsfiles\\WS_FTP.LOG",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 162,
+        "modified": "2026-05-20T17:49:00",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "162 B"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\tlpkg\\tlpostcode\\xetex\\cache",
+        "kind": "review-dir",
+        "risk": "需确认",
+        "size_bytes": 51,
+        "modified": "2026-05-20T18:42:40",
+        "reason": "application cache directory; app-specific review needed",
+        "size_human": "51 B"
+      },
+      {
+        "path": "D:\\latex\\texlive\\2026\\texmf-dist\\doc\\latex\\latex-web-companion\\ch4\\tex4ht.tmp",
+        "kind": "temp-file",
+        "risk": "低风险",
+        "size_bytes": 15,
+        "modified": "2026-05-20T17:53:27",
+        "reason": "temporary/cache marker file",
+        "size_human": "15 B"
+      },
+      {
+        "path": "D:\\qq\\beacon_report.log",
+        "kind": "log-dump-backup",
+        "risk": "需确认",
+        "size_bytes": 0,
+        "modified": "2026-05-20T10:29:54",
+        "reason": "old or large log/dump/backup-like file",
+        "size_human": "0 B"
+      },
+      {
+        "path": "D:\\OneDrive\\文档\\BaiduNetdiskTmp\\2f079f67-c7a8-4d29-9cbe-57e9b70c9201.tmp",
+        "kind": "temp-file",
+        "risk": "低风险",
+        "size_bytes": 0,
+        "modified": "2026-07-05T19:13:52",
+        "reason": "temporary/cache marker file",
+        "size_human": "0 B"
+      },
+      {
+        "path": "D:\\OneDrive\\文档\\BaiduNetdiskTmp\\80e973e5-9ce0-42b2-85c1-c877d78a71a1.tmp",
+        "kind": "temp-file",
+        "risk": "低风险",
+        "size_bytes": 0,
+        "modified": "2026-07-05T19:13:52",
+        "reason": "temporary/cache marker file",
+        "size_human": "0 B"
+      },
+      {
+        "path": "D:\\OneDrive\\文档\\BaiduNetdiskTmp\\a0d737c6-816e-4173-b888-033249cf4b62.tmp",
+        "kind": "temp-file",
+        "risk": "低风险",
+        "size_bytes": 0,
+        "modified": "2026-07-05T19:14:19",
+        "reason": "temporary/cache marker file",
+        "size_human": "0 B"
+      },
+      {
+        "path": "D:\\OneDrive\\文档\\BaiduNetdiskTmp\\dc302d8d-79d2-4a12-b480-fefd637a80f6.tmp",
+        "kind": "temp-file",
+        "risk": "低风险",
+        "size_bytes": 0,
+        "modified": "2026-07-05T19:13:48",
+        "reason": "temporary/cache marker file",
+        "size_human": "0 B"
+      },
+      {
+        "path": "D:\\OneDrive\\文档\\BaiduNetdiskTmp\\e8bd2ec4-0228-4fc7-86ce-504c2047f883.tmp",
+        "kind": "temp-file",
+        "risk": "低风险",
+        "size_bytes": 0,
+        "modified": "2026-07-05T19:13:51",
+        "reason": "temporary/cache marker file",
+        "size_human": "0 B"
+      },
+      {
+        "path": "D:\\OneDrive\\文档\\BaiduNetdiskTmp\\baiduyunguanjia\\baiduyunguanjia\\dragfile\\1867163565388870181.tmp",
+        "kind": "temp-file",
+        "risk": "低风险",
+        "size_bytes": 0,
+        "modified": "2026-06-05T21:25:36",
+        "reason": "temporary/cache marker file",
+        "size_human": "0 B"
+      }
+    ],
+    "largest_files": [
+      {
+        "path": "D:\\pagefile.sys",
+        "kind": "large-file",
+        "risk": "信息",
+        "size_bytes": 22778736640,
+        "modified": "2026-07-06T22:46:18",
+        "reason": "file is at least 1GB",
+        "size_human": "21.21 GB"
+      },
+      {
+        "path": "D:\\WSL\\Ubuntu\\ext4.vhdx",
+        "kind": "large-file",
+        "risk": "信息",
+        "size_bytes": 6111100928,
+        "modified": "2026-07-05T22:42:48",
+        "reason": "file is at least 1GB",
+        "size_human": "5.69 GB"
+      },
+      {
+        "path": "D:\\WSL\\Backup\\Ubuntu.tar",
+        "kind": "large-file",
+        "risk": "信息",
+        "size_bytes": 1511956480,
+        "modified": "2026-05-07T00:32:21",
+        "reason": "file is at least 1GB",
+        "size_human": "1.41 GB"
+      },
+      {
+        "path": "D:\\BaiduNetdisk\\module\\BrowserEngine\\users\\5c87ab3bce61650676b8d904e0d3cc3d\\filecache.db",
+        "kind": "large-file",
+        "risk": "信息",
+        "size_bytes": 1240690688,
+        "modified": "2026-07-05T20:50:01",
+        "reason": "file is at least 1GB",
+        "size_human": "1.16 GB"
+      },
+      {
+        "path": "D:\\DTLFolder\\DriversBackup\\NVIDIA GeForce RTX 3050 Ti Laptop GPU_32.0.15.9636_2026-05-23 15 22 14.zip",
+        "kind": "large-file",
+        "risk": "信息",
+        "size_bytes": 1221296686,
+        "modified": "2026-05-23T15:23:44",
+        "reason": "file is at least 1GB",
+        "size_human": "1.14 GB"
+      },
+      {
+        "path": "D:\\DTLFolder\\DriversDownLoad\\9A16B8482986520384BA5CD88B8B1217.7z",
+        "kind": "large-file",
+        "risk": "信息",
+        "size_bytes": 1082460050,
+        "modified": "2026-05-23T15:22:07",
+        "reason": "file is at least 1GB",
+        "size_human": "1.01 GB"
+      }
+    ],
+    "possible_duplicate_large_name_size": [
+      {
+        "name": "best_recognition.pt",
+        "size_bytes": 135481065,
+        "size_human": "129.20 MB",
+        "paths": [
+          "D:\\OneDrive\\文档\\xwechat_files\\wxid_urovbkkpo2jk22_bb4e\\msg\\file\\2026-06\\2023312312邹佳立(1)\\2023312312邹佳立\\信鸽\\信鸽虹膜识别系统_代码\\信鸽虹膜识别系统\\C_delivery\\models\\best_recognition.pt",
+          "D:\\OneDrive\\文档\\xwechat_files\\wxid_urovbkkpo2jk22_bb4e\\msg\\file\\2026-06\\2023312312邹佳立\\2023312312邹佳立\\信鸽\\信鸽虹膜识别系统_代码\\信鸽虹膜识别系统\\C_delivery\\models\\best_recognition.pt"
+        ],
+        "count": 2
+      }
+    ]
+  }
+}

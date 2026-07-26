@@ -1,0 +1,89 @@
+{
+  "tk_kol_title": {
+    "message": "KOLスプライト"
+  },
+  "tk_crator": {
+    "message": "TikTok インフルエンサー"
+  },
+  "tk_product_influencers": {
+    "message": "製品に関連する TikTok インフルエンサーを表示"
+  },
+  "tk_influencer_finder": {
+    "message": "商品のTikTok関連インフルエンサーを探す"
+  },
+  "tk_current_amazon_product": {
+    "message": "現在の Amazon 製品"
+  },
+  "tk_subcategory": {
+    "message": "最下位カテゴリ"
+  },
+  "tk_tiktok_influencers": {
+    "message": "TikTok インフルエンサー"
+  },
+  "tk_tiktok_influencers_tips": {
+    "message": "下記に掲載されたインフルエンサーは同様の商品を宣伝しており、異なる目的に応じてさらに研究することができます。</br>クロスボーダーセラー：データに基づいて、インフルエンサーのホームページのスタイルをさらに研究し、インフルエンサーが自社製品の宣伝に適しているかどうかを判断してください。</br>宣伝コンテンツクリエイター：データの良い関連インフルエンサーを直接参考にして、コンテンツの作成方法を学ぶことができます。</br></br>インフルエンサー精霊プラグインと組み合わせて使用すると、インフルエンサーのポートレート、スタイル、データ、台本、ハイライト、さらには台本の模倣などをさらに分析することができます。。"
+  },
+  "tk_influencer": {
+    "message": "インフルエンサー"
+  },
+  "tk_product_cnt_tips": {
+    "message": "インフルエンサーが紹介したTikTokショップ商品の総数"
+  },
+  "tk_product_cnt": {
+    "message": "提携商品数"
+  },
+  "tk_sales_volume_tips": {
+    "message": "インフルエンサー動画で販売されたTikTokショップ商品の総販売数</br>インフルエンサー動画の総合的な販売力を評価する指標となります。"
+  },
+  "tk_sales_volume": {
+    "message": "累計販売数"
+  },
+  "tk_follower_count_tips": {
+    "message": "インフルエンサーのファン総数</br>は、インフルエンサーのアカウントの影響力を評価することができます"
+  },
+  "tk_follower_count": {
+    "message": "フォロワー数"
+  },
+  "tk_average_views_tips": {
+    "message": "インフルエンサーのビデオの総再生回数をビデオの総数で割った値</br>は、ファン数と合わせて、インフルエンサーの創作内容の影響力を評価することができます。"
+  },
+  "tk_average_views": {
+    "message": "平均視聴回数"
+  },
+  "tk_engagement_rate_tips": {
+    "message": "インタラクションレートとも呼ばれ、（いいね数＋コメント数＋お気に入り数＋共有数）÷ 再生数で算出されます。</br>これにより、インフルエンサーのビデオコンテンツの魅力を評価できます。"
+  },
+  "tk_engagement_rate": {
+    "message": "エンゲージメント率"
+  },
+  "tk_action": {
+    "message": "操作"
+  },
+  "tk_view_profile": {
+    "message": "インフルエンサーのプロフィールを表示"
+  },
+  "tk_more_tools": {
+    "message": "新しいプラグインと組み合わせて、TikTokでより多くの分析データを確認できますよ~"
+  },
+  "tk_click_learn_more": {
+    "message": "今すぐクリックしてインストール"
+  },
+  "tk_bsr_rank": {
+    "message": "現在のBSRランキング"
+  },
+  "tk_search_keyword": {
+    "message": "現在の検索キーワード"
+  },
+  "tk_more_creator_data": {
+    "message": "クリエイターの詳細データを表示"
+  },
+  "tk_more_relative_creator": {
+    "message": "関連クリエイターをさらに表示"
+  },
+  "tk_get_data_error": {
+    "message": "データの取得に失敗しました。後でもう一度お試しいただくか、カスタマーサポートまでお問い合わせください。"
+  },
+  "tk_no_sale_creator": {
+    "message": "物販ではないクリエイター"
+  }
+}

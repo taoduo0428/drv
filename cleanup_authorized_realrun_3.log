@@ -1,0 +1,43 @@
+﻿[2026-07-06 23:22:09] Safe cache cleanup confirmation script started.
+[2026-07-06 23:22:09] Mode: CONFIRMED RUN REQUESTED
+[2026-07-06 23:22:09] Log file: C:\Users\lenovo\Desktop\obdiant\cleanup_log_20260706-232209.txt
+[2026-07-06 23:22:09] Temp threshold: older than 7 days
+[2026-07-06 23:22:09] Explicit exclusions: Docker, .docker, .venv, venv, node_modules, .next, build, dist, registry, services.
+[2026-07-06 23:22:37] TARGET npm-cache: root=C:\Users\lenovo\AppData\Local\npm-cache
+[2026-07-06 23:22:37]   Reason=npm cache
+[2026-07-06 23:22:37]   EligibleRoots=4, ItemsScanned=83354, Size=3.03 GB, Errors=0, Skipped=0, Truncated=False
+[2026-07-06 23:22:41] TARGET pip Cache: root=C:\Users\lenovo\AppData\Local\pip\Cache
+[2026-07-06 23:22:41]   Reason=pip download/build cache
+[2026-07-06 23:22:41]   EligibleRoots=3, ItemsScanned=5587, Size=712.10 MB, Errors=0, Skipped=0, Truncated=False
+[2026-07-06 23:22:51] TARGET Gradle caches: root=C:\Users\lenovo\.gradle\caches
+[2026-07-06 23:22:51]   Reason=Gradle dependency/build cache
+[2026-07-06 23:22:51]   EligibleRoots=5, ItemsScanned=15357, Size=505.42 MB, Errors=0, Skipped=0, Truncated=False
+[2026-07-06 23:22:52] TARGET Local Temp older than threshold: no eligible items or path missing. Root=C:\Users\lenovo\AppData\Local\Temp
+[2026-07-06 23:22:52] TARGET Edge default cache: root=C:\Users\lenovo\AppData\Local\Microsoft\Edge\User Data\Default\Cache
+[2026-07-06 23:22:52]   Reason=Edge browser cache
+[2026-07-06 23:22:52]   EligibleRoots=2, ItemsScanned=506, Size=345.61 MB, Errors=0, Skipped=0, Truncated=False
+[2026-07-06 23:22:52] TARGET Chrome default cache: root=C:\Users\lenovo\AppData\Local\Google\Chrome\User Data\Default\Cache
+[2026-07-06 23:22:52]   Reason=Chrome browser cache
+[2026-07-06 23:22:52]   EligibleRoots=2, ItemsScanned=152, Size=29.68 MB, Errors=0, Skipped=0, Truncated=False
+[2026-07-06 23:22:52] Estimated removable cache size: 4.58 GB
+[2026-07-06 23:22:52] Real run requested. Type YES to proceed. Any other input aborts.
+YES
+[2026-07-06 23:23:05] REMOVED: C:\Users\lenovo\AppData\Local\npm-cache\_cacache
+[2026-07-06 23:23:05] REMOVED: C:\Users\lenovo\AppData\Local\npm-cache\_logs
+[2026-07-06 23:23:05] FAILED: C:\Users\lenovo\AppData\Local\npm-cache\_npx :: ��·����node.exe���ķ��ʱ��ܾ���
+[2026-07-06 23:23:05] REMOVED: C:\Users\lenovo\AppData\Local\npm-cache\_update-notifier-last-checked
+[2026-07-06 23:23:11] REMOVED: C:\Users\lenovo\AppData\Local\pip\Cache\http-v2
+[2026-07-06 23:23:11] REMOVED: C:\Users\lenovo\AppData\Local\pip\Cache\selfcheck
+[2026-07-06 23:23:11] REMOVED: C:\Users\lenovo\AppData\Local\pip\Cache\wheels
+[2026-07-06 23:23:23] REMOVED: C:\Users\lenovo\.gradle\caches\8.14.3
+[2026-07-06 23:23:23] REMOVED: C:\Users\lenovo\.gradle\caches\jars-9
+[2026-07-06 23:23:23] REMOVED: C:\Users\lenovo\.gradle\caches\journal-1
+[2026-07-06 23:23:27] REMOVED: C:\Users\lenovo\.gradle\caches\modules-2
+[2026-07-06 23:23:27] REMOVED: C:\Users\lenovo\.gradle\caches\CACHEDIR.TAG
+[2026-07-06 23:23:27] REMOVED: C:\Users\lenovo\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data
+[2026-07-06 23:23:27] FAILED: C:\Users\lenovo\AppData\Local\Microsoft\Edge\User Data\Default\Cache\No_Vary_Search :: �ļ���journal.baj��������һ����ʹ�ã���˸ý����޷����ʴ��ļ���
+[2026-07-06 23:23:27] REMOVED: C:\Users\lenovo\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data
+[2026-07-06 23:23:27] REMOVED: C:\Users\lenovo\AppData\Local\Google\Chrome\User Data\Default\Cache\No_Vary_Search
+[2026-07-06 23:23:27] Finished. Removed root items=14, failed root items=2
+[2026-07-06 23:23:27] If some cache files failed, close related apps and rerun only after reviewing this log.
+

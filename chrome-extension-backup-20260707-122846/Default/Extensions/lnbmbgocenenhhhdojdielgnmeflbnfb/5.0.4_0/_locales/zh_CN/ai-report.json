@@ -1,0 +1,230 @@
+{
+  "ai_report_page_title": {
+    "message": "AI解读|卖家精灵"
+  },
+  "ai_report_description": {
+    "message": "我是AI解读描述文字"
+  },
+  "ai_report_confirm": {
+    "message": "确认"
+  },
+  "ai_report_cancle": {
+    "message": "取消"
+  },
+  "ai_report_button_reset": {
+    "message": "重置"
+  },
+  "ai_report_copy_link": {
+    "message": "复制链接"
+  },
+  "ai_report_tip": {
+    "message": "智能解读关键词 x Keepa趋势分析 x 全方位市场洞察 x 竞品动态追踪，用数据逻辑替代经验盲选，提升决策精准度！"
+  },
+  "ai_report_reset": {
+    "message": "重新生成"
+  },
+  "ai_report_try": {
+    "message": "点击体验"
+  },
+  "ai_report_create_new": {
+    "message": "创建新对话"
+  },
+  "ai_report_reset_tip": {
+    "message": "重新生成报告将覆盖当前内容，确定重新生成吗？"
+  },
+  "ai_report_share_title": {
+    "message": "分享"
+  },
+  "ai_report_share": {
+    "message": "分享给小伙伴吧，链接于 <span style='font-size: 13px;color: #FB8C1E'>{time}</span> 前有效",
+    "placeholders": {
+      "time": {}
+    }
+  },
+  "ai_report_loading_text": {
+    "message": "正在分析中...预计需要1~3分钟"
+  },
+  "ai_report_loading_tip": {
+    "message": "您可以先收藏本页，7天内随时回来查看完整报告"
+  },
+  "ai_report_create_text": {
+    "message": "数据解读"
+  },
+  "ai_report_button_tip": {
+    "message": "卖家精灵 × DeepSeek-R1满血版，强强联合<br>点击获取AI智能数据解读吧！"
+  },
+  "ai_report_button_re_tip": {
+    "message": "重新生成AI解读报告"
+  },
+  "ai_report_load_error": {
+    "message": "挤爆了！卖家精灵云游火星啦，请稍后再试试吧～<br />(本次分析不扣除次数)"
+  },
+  "ai_report_mini_load_error": {
+    "message": "挤爆了！卖家精灵云游火星啦，请稍后再试试吧～（本次分析不扣除次数）"
+  },
+  "ai_report_load_over_time": {
+    "message": "链接失效，报告不见啦～<br>试试在“工具”中，用卖家精灵AI一键生成全新解读报告吧！"
+  },
+  "ai_report_support": {
+    "message": "卖家精灵 （https://www.sellersprite.com)"
+  },
+  "ai_report_date": {
+    "message": "数据周期："
+  },
+  "ai_report_analysisDate": {
+    "message": "分析日期："
+  },
+  "ai_report_support_title": {
+    "message": "数据支持："
+  },
+  "ai_report_free_toast": {
+    "message": "今日AI解读次数已用完（10次/日），升级付费套餐解锁（100次/日）哦～"
+  },
+  "ai_report_free_toast_tool": {
+    "message": "今日AI解读次数已用完（10次/日）， <a style='color: #ff9300' href='https://www.sellersprite.com/price' target='_blank'>升级付费套餐 </a>解锁（100次/日）哦～"
+  },
+  "ai_report_limit_toast": {
+    "message": "今日AI解读次数已用完（100次/日），明天自动恢复哦～"
+  },
+  "ai_report_button_share": {
+    "message": "分享给好友"
+  },
+  "ai_report_button_export": {
+    "message": "导出PDF"
+  },
+  "ai_report_warning_tip": {
+    "message": " 数据解读报告由AI生成，请仔细甄别～  单个报告有效期为10天，请及时下载备份哦"
+  },
+  "ai_report_warning_tip_time": {
+    "message": " 数据解读报告由AI生成，请仔细甄别～ 该报告有效期至 {time} ，请及时下载备份哦",
+    "placeholders": {
+      "times": {}
+    }
+  },
+  "ai_report_warning_tip_time_example": {
+    "message": " 数据解读报告由AI生成，请仔细甄别～ 该示例报告永久有效",
+    "placeholders": {
+      "times": {}
+    }
+  },
+  "ai_report_share_example": {
+    "message": "分享给小伙伴吧，示例报告永久有效"
+  },
+  "ai_report_warning_tip_new": {
+    "message": "服务生成的所有内容均由人工智能模型生成，其生成内容的准确性和完整性无法保证，不代表我们的态度或观点"
+  },
+  "ai_report_pay_times": {
+    "message": "当天剩余{times}次",
+    "placeholders": {
+      "times": {}
+    }
+  },
+  "ai_report_pay_more_times": {
+    "message": "<span style='color: #8A8B97;font-size: 13px'>当天剩余{times}次</span>",
+    "placeholders": {
+      "times": {}
+    }
+  },
+  "ai_report_history_pay_limit_5_times": {
+    "message": "<span style='color: #8A8B97;font-size: 13px'>当天剩余<span style='color: #FB8C1E'> {times} </span>次</span>",
+    "placeholders": {
+      "times": {}
+    }
+  },
+  "ai_report_upgrade": {
+    "message": "<span style='color: #FB8C1E'> 升级套餐</span>"
+  },
+  "ai_report_pay_free_times": {
+    "message": "升级套餐立享100次/日 <a style='color: #ff9300' href='https://www.sellersprite.com/price' target='_blank'>点击这里</a>"
+  },
+  "ai_report_back": {
+    "message": "返回"
+  },
+  "ai_report_data_empty": {
+    "message": "暂无数据"
+  },
+  "ai_report_search_placeholder": {
+    "message": "搜索历史记录"
+  },
+  "ai_report_example_title": {
+    "message": "一键分析热门商品"
+  },
+  "ai_report_KP_placeholder": {
+    "message": "请输入您要分析的ASIN，如 B07Z82895W"
+  },
+  "ai_report_MA_placeholder": {
+    "message": "请输入您要分析的ASIN，如 B07Z82895W"
+  },
+  "ai_report_check_asin": {
+    "message": "您输入的ASIN格式不正确，再核对下哦～"
+  },
+  "ai_report_check_asin_not_found": {
+    "message": "未找到该ASIN，请检查输入是否正确"
+  },
+  "ai_report_oprate_tips": {
+    "message": "不会操作？<a style='color: #ff9300' href='https://www.sellersprite.com/v3/knowledge/feature/Keepa-ai-analysis-for-beginners#%E8%A7%86%E9%A2%91%E8%AE%B2%E8%A7%A3' target='_blank'>点击这里查看视频教程</a>"
+  },
+  "ai_report_text_area_placeholder": {
+    "message": "输入你想分析的内容，不知从何问起？点击下方的标签寻找灵感吧！"
+  },
+  "ai_report_text_area_placeholder_new": {
+    "message": "输入你想分析的内容，做更有深度的分析吧！"
+  },
+  "ai_report_learn_KP": {
+    "message": "一分钟学会AI解读Keepa数据"
+  },
+  "ai_report_learn_MA": {
+    "message": "一分钟学会AI解读市场数据"
+  },
+  "ai_report_analysis_tip": {
+    "message": "立即分析（消耗一次）"
+  },
+  "ai_report_wechat_text": {
+    "message": "扫码添加1V1小助手"
+  },
+  "ai_report_delete_info": {
+    "message": "删除后，对话及分享链接将永久失效。确认删除？"
+  },
+  "ai_report_ready_info": {
+    "message": "即将上线，敬请期待"
+  },
+  "ai_report_keepa_analysis": {
+    "message": "Keepa数据分析"
+  },
+  "ai_report_market_analysis": {
+    "message": "细分市场分析"
+  },
+  "ai_report_keepa_info": {
+    "message": "智能解锁Keepa隐藏趋势，精准洞悉竞品动态，抢占市场先机"
+  },
+  "ai_report_market_info": {
+    "message": "AI深度扫描细分市场，挖掘潜在机会，助力锁定高潜力赛道"
+  },
+  "ai_report_start_use": {
+    "message": "开始使用"
+  },
+  "ai_report_ready_start_use": {
+    "message": "即将上线"
+  },
+  "ai_report_ad_1": {
+    "message": "卖家精灵 × DeepSeek-R1满血版"
+  },
+  "ai_report_ad_2": {
+    "message": "Keepa曲线会说话，AI解读助你精准决策！"
+  },
+  "ai_report_ad_3": {
+    "message": "复杂数据秒变洞见，AI导航选品运营！"
+  },
+  "ai_report_ad_4": {
+    "message": "一眼看透Keepa走势，AI秒解涨跌玄机！"
+  },
+  "ai_report_ad_5": {
+    "message": "告别手动分析，AI秒读Keepa趋势，决策快人一步！"
+  },
+  "ai_report_ad_6": {
+    "message": "探寻市场发展机遇，卖家精灵 AI 全程护航"
+  },
+  "ai_report_not_allow_ask": {
+    "message": "暂时只支持对报告的分析哦，请修改提示词后重试～"
+  }
+}

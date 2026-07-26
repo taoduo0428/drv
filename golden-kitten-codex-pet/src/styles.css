@@ -1,0 +1,286 @@
+:root {
+  --gold: #ffc45a;
+  --gold-deep: #c77712;
+  --cream: #fff0c2;
+  --ink: #4b2a09;
+  --shadow: rgba(67, 33, 0, 0.28);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: transparent;
+  font-family: "Microsoft YaHei", "Segoe UI", system-ui, sans-serif;
+  user-select: none;
+}
+
+button {
+  border: 1px solid rgba(255, 255, 255, 0.68);
+  border-radius: 999px;
+  background: rgba(255, 238, 189, 0.86);
+  color: var(--ink);
+  font-size: 12px;
+  line-height: 1;
+  padding: 7px 10px;
+  box-shadow: 0 4px 12px rgba(77, 43, 0, 0.14);
+  cursor: pointer;
+}
+
+button:hover {
+  background: #fff5d2;
+  transform: translateY(-1px);
+}
+
+.pet-shell {
+  position: relative;
+  width: min(100vw, 340px);
+  height: min(100vh, 390px);
+  max-width: 340px;
+  max-height: 390px;
+  padding: 14px 14px 8px;
+  margin-left: auto;
+  margin-top: auto;
+  overflow: hidden;
+}
+
+.bubble {
+  position: absolute;
+  z-index: 4;
+  top: 8px;
+  left: 16px;
+  right: 16px;
+  min-height: 42px;
+  padding: 9px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 16px 16px 16px 6px;
+  background: linear-gradient(180deg, rgba(255, 251, 233, 0.94), rgba(255, 225, 153, 0.88));
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.35;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.55);
+  box-shadow: 0 12px 28px rgba(89, 46, 0, 0.18);
+}
+
+.bubble::after {
+  content: "";
+  position: absolute;
+  left: 44px;
+  bottom: -9px;
+  width: 18px;
+  height: 18px;
+  background: rgba(255, 225, 153, 0.9);
+  border-right: 1px solid rgba(255, 255, 255, 0.7);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  transform: rotate(45deg);
+}
+
+.progress-panel {
+  position: absolute;
+  z-index: 4;
+  top: 57px;
+  left: 28px;
+  right: 28px;
+  padding: 6px 9px 7px;
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  border-radius: 999px;
+  background: rgba(255, 245, 214, 0.78);
+  box-shadow: 0 8px 20px rgba(89, 46, 0, 0.11);
+}
+
+.progress-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 5px;
+  color: rgba(75, 42, 9, 0.82);
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.phase-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.progress-track {
+  width: 100%;
+  height: 6px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(131, 78, 9, 0.13);
+}
+
+.progress-fill {
+  width: 5%;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #f5a623, #ffe38f);
+  box-shadow: 0 0 10px rgba(255, 196, 90, 0.55);
+  transition: width 0.28s ease;
+}
+
+.pet-stage {
+  position: absolute;
+  left: 18px;
+  right: 18px;
+  bottom: 36px;
+  height: 218px;
+  display: grid;
+  place-items: end center;
+}
+
+.status-ring {
+  position: absolute;
+  bottom: 8px;
+  width: 168px;
+  height: 28px;
+  border-radius: 50%;
+  background: radial-gradient(ellipse at center, rgba(111, 64, 0, 0.16), transparent 70%);
+  filter: blur(1px);
+}
+
+.pet-image {
+  position: relative;
+  z-index: 2;
+  width: min(190px, 78vw);
+  height: auto;
+  object-fit: contain;
+  transform-origin: center bottom;
+  filter: drop-shadow(0 14px 16px var(--shadow));
+  animation: breathe 2.4s ease-in-out infinite;
+}
+
+.pet-controls {
+  position: absolute;
+  z-index: 5;
+  left: 50%;
+  bottom: 4px;
+  display: flex;
+  gap: 6px;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.18s ease;
+}
+
+.pet-shell:hover .pet-controls {
+  opacity: 1;
+}
+
+.pet-shell[data-state="thinking"] .pet-image {
+  animation: think 1.4s ease-in-out infinite;
+}
+
+.pet-shell[data-state="running"] .pet-image {
+  animation: run 0.55s ease-in-out infinite;
+}
+
+.pet-shell[data-state="reviewing"] .pet-image {
+  animation: lean 1.2s ease-in-out infinite;
+}
+
+.pet-shell[data-state="success"] .pet-image {
+  animation: jump 0.85s ease-out infinite;
+}
+
+.pet-shell[data-state="failure"] .pet-image {
+  animation: droop 1.8s ease-in-out infinite;
+  filter: grayscale(0.12) drop-shadow(0 12px 14px rgba(58, 42, 27, 0.2));
+}
+
+.pet-shell[data-state="attention"] .bubble {
+  animation: pulse 0.9s ease-in-out infinite;
+}
+
+@keyframes breathe {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-3px) scale(1.012);
+  }
+}
+
+@keyframes think {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-5px) rotate(-1.8deg);
+  }
+}
+
+@keyframes run {
+  0%,
+  100% {
+    transform: translateX(-3px) rotate(-1deg);
+  }
+  50% {
+    transform: translateX(3px) rotate(1deg);
+  }
+}
+
+@keyframes lean {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+}
+
+@keyframes jump {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+  }
+  35% {
+    transform: translateY(-18px) scale(1.04);
+  }
+  60% {
+    transform: translateY(0) scale(0.98, 1.02);
+  }
+}
+
+@keyframes droop {
+  0%,
+  100% {
+    transform: translateY(3px) scale(0.99);
+  }
+  50% {
+    transform: translateY(7px) scale(0.985);
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.035);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pet-image,
+  .bubble {
+    animation: none !important;
+  }
+}

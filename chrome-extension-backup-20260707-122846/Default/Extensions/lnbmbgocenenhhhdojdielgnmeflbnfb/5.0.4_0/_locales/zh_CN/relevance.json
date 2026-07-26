@@ -1,0 +1,164 @@
+{
+  "relevance_check_my_tpl": {
+    "message": "我的模版"
+  },
+  "relevance_check_input_asin": {
+    "message": "输入ASIN"
+  },
+  "relevance_check_input_keywords": {
+    "message": "输入关键词"
+  },
+  "relevance_check_asin_limit": {
+    "message": "最多48个竞品ASIN，更加精准！一行一个ASIN，回车换行"
+  },
+  "relevance_check_reminder": {
+    "message": "温馨提示：一键实时筛查“高相关”关键词！帮您精准搭建核心词库，快人一步抢占流量。（推荐<span style='color: #FB8C1E;'>48个竞品ASIN</span>效果更佳哦~）"
+  },
+  "relevance_check_new_feature": {
+    "message": "新增“相关性筛查”功能啦！支持实时测算<br>竞品与关键词的相关性快来试试吧！"
+  },
+  "relevance_check_example_data": {
+    "message": "示例数据："
+  },
+  "relevance_check_example_data_click": {
+    "message": "点击填入"
+  },
+  "relevance_check_clear_conditions": {
+    "message": "清空条件"
+  },
+  "relevance_check_select_template": {
+    "message": "从模板选择"
+  },
+  "relevance_check_save_template": {
+    "message": "保存为模板"
+  },
+  "relevance_check_relevance": {
+    "message": "相关性"
+  },
+  "relevance_check_relevance_tips": {
+    "message": "“相关性”是通过ASIN在某个关键词搜索结果前96个自然位中的绝对位置，计算综合占位率得出的<br>（每页展示48个产品的，爬取前2页；每页展示16个产品的，爬取前6页）<br>高相关：≥ {high}%<br>中相关：{medium}%-{high}%<br>低相关：{low}%-{medium}%<br>不相关：＜{low}%<br>“相关性”计算原理：<a href='https://www.sellersprite.com/v3/knowledge/feature/relevance-principle-of-extension' style='color: #FB8C1E;' target='_blank'>点击这里</a>",
+    "placeholders": {
+      "high": {
+        "content": "$1",
+        "example": "60"
+      },
+      "medium": {
+        "content": "$2",
+        "example": "20"
+      },
+      "low": {
+        "content": "$3",
+        "example": "5"
+      }
+    }
+  },
+  "relevance_check_template_name": {
+    "message": "模板名称"
+  },
+  "relevance_check_keyword_performance_score": {
+    "message": "关键词表现分"
+  },
+  "relevance_check_keyword_performance_score_tips": {
+    "message": "关键词表现分（也称Z分数）是通过Z-score计算得出的，用来衡量某个关键词相对于当前查询所有关键词平均水平的差异<br>正数：表示该关键词的表现优于平均水平，数值越大表现越好<br>负数：表示该关键词的表现低于平均水平，数值越小表现越差<br>0：表示该关键词的表现接近平均水平<br>关键词表现分（也称Z分数）计算原理：<a href='https://www.sellersprite.com/v3/knowledge/feature/keyword-performance-score-of-extension' style='color: #FB8C1E;' target='_blank'>点击这里</a>"
+  },
+  "relevance_check_relevance_categories_not_relevant": {
+    "message": "不相关"
+  },
+  "relevance_check_relevance_categories_low": {
+    "message": "低相关"
+  },
+  "relevance_check_relevance_categories_high": {
+    "message": "高相关"
+  },
+  "relevance_check_relevance_categories_medium": {
+    "message": "中相关"
+  },
+  "relevance_check_positive_score": {
+    "message": "表示该关键词的表现优于平均水平，数值越大表现越好"
+  },
+  "relevance_check_negative_score": {
+    "message": "表示该关键词的表现低于平均水平，数值越小表现越差"
+  },
+  "relevance_check_neutral_score": {
+    "message": "表示该关键词的表现接近平均水平"
+  },
+  "relevance_check_high_relevance": {
+    "message": "在关键词下<span style='color: #FB8C1E;'>大部分产品</span>与竞品ASIN高度相似，流量和转化潜力最大"
+  },
+  "relevance_check_medium_relevance": {
+    "message": "在关键词下<span style='color: #FB8C1E;'>一部分产品</span>与竞品ASIN高度相似，可能需要优化以提升效果"
+  },
+  "relevance_check_low_relevance": {
+    "message": "在关键词下<span style='color: #FB8C1E;'>只有少部分产品</span>与竞品ASIN高度相似，流量和转化潜力有限"
+  },
+  "relevance_check_not_relevant_explanation": {
+    "message": "在关键词下<span style='color: #FB8C1E;'>极少甚至没有产品</span>与竞品ASIN高度相似，不建议使用"
+  },
+  "relevance_check_total_keywords": {
+    "message": "共筛查 <span style='color: #FB8C1E;'>{num}</span> 个关键词",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "0"
+      },
+      "num1": {
+        "content": "$2",
+        "example": "0"
+      }
+    }
+  },
+  "relevance_check_template_success": {
+    "message": "模板添加成功！"
+  },
+  "relevance_check_template_success_tips": {
+    "message": "下次查询您可以直接从模板选择哦~ 省时又省力"
+  },
+  "relevance_check_analysis_progress": {
+    "message": "正在飞速分析中...大约需要5-10分钟，请保持页面开启哦"
+  },
+  "relevance_check_template_name_prompt": {
+    "message": "请输入模板名称（非必填）"
+  },
+  "relevance_check_asin_count": {
+    "message": "ASIN数"
+  },
+  "relevance_check_keyword_count": {
+    "message": "关键词数"
+  },
+  "relevance_check_my_tpl_name": {
+    "message": "模版名称"
+  },
+  "relevance_check_my_tpl_create": {
+    "message": "创建时间"
+  },
+  "relevance_cleared_all": {
+    "message": "已清空所有条件"
+  },
+  "relevance_check_relevance_percentage": {
+    "message": "相关性百分比"
+  },
+  "relevance_check_select_template_tips": {
+    "message": "请选择至少一个模版"
+  },
+  "relevance_check_delete_template_tips": {
+    "message": "删除后，数据将不可恢复。确认删除吗？"
+  },
+  "relevance_check_delete_template_confirm": {
+    "message": "确定"
+  },
+  "relevance_check_delete_template_cancel": {
+    "message": "取消"
+  },
+  "relevance_check_btn_video_href": {
+    "message": "https://www.sellersprite.com/v3/knowledge/feature/relevance-check-video-tutorial"
+  },
+  "relevance_check_set_rate": {
+    "message": "比例"
+  },
+  "relevance_check_set_rate_tips": {
+    "message": "温馨提示：不同品类的产品建议设置不同的相关性高低标准"
+  },
+  "relevance_check_set_warning_tips": {
+    "message": "请正确输入设置项内容"
+  }
+}

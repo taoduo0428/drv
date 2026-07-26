@@ -1,0 +1,7 @@
+- main [ref=e2]:
+  - generic [ref=e4]: 正在思考下一步……
+  - generic "拖动我可以移动位置" [ref=e5]:
+    - img "金渐层小猫桌宠" [ref=e7]
+  - generic [ref=e8]:
+    - button "换状态" [active] [ref=e9] [cursor=pointer]
+    - button "隐藏" [ref=e10] [cursor=pointer]

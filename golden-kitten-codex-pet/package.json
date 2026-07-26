@@ -1,0 +1,26 @@
+{
+  "name": "golden-kitten-codex-pet",
+  "version": "0.1.0",
+  "description": "A small golden shaded kitten desktop pet for Codex status monitoring.",
+  "main": "src/main.js",
+  "type": "commonjs",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron .",
+    "check": "node scripts/check.mjs",
+    "hook": "node scripts/codex-pet-hook.mjs",
+    "state": "node scripts/write-state.mjs"
+  },
+  "keywords": [
+    "codex",
+    "desktop-pet",
+    "electron",
+    "kitten"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^43.0.0"
+  }
+}

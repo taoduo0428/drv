@@ -1,0 +1,6 @@
+﻿C:\Users\lenovo\Desktop\obdiant\cleanup_safe_confirm.ps1 : �޷�����Բ�����DryRun���Ĳ���ת�����޷���ֵ��System.String��ת��
+Ϊ���͡�System.Management.Automation.SwitchParameter�����������������ܲ���ֵ�����֣����� $True��$False��1 �� 0��
+    + CategoryInfo          : InvalidData: (:) [cleanup_safe_confirm.ps1]��ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ParameterArgumentTransformationError,cleanup_safe_confirm.ps1
+ 
+

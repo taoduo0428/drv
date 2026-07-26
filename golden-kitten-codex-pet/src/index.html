@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self';" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>金渐层 Codex 小猫</title>
+    <link rel="icon" href="../assets/golden-kitten.png" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="pet-shell" data-state="idle">
+      <section class="bubble" aria-live="polite">
+        <span class="bubble-text">喵，我在桌面待命。</span>
+      </section>
+
+      <section class="progress-panel" aria-label="Codex 任务进度">
+        <div class="progress-meta">
+          <span class="phase-text">待命</span>
+          <span class="progress-percent">5%</span>
+        </div>
+        <div class="progress-track">
+          <div class="progress-fill"></div>
+        </div>
+      </section>
+
+      <section class="pet-stage" title="拖动我可以移动位置">
+        <div class="status-ring"></div>
+        <img class="pet-image" src="../assets/golden-kitten.png" alt="金渐层小猫桌宠" draggable="false" />
+      </section>
+
+      <footer class="pet-controls">
+        <button id="open-codex" type="button">Codex</button>
+        <button id="resize-pet" type="button">大小</button>
+        <button id="reset-pet" type="button">重置</button>
+        <button id="hide-pet" type="button">隐藏</button>
+      </footer>
+    </main>
+
+    <script src="./renderer.js"></script>
+  </body>
+</html>

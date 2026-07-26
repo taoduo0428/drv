@@ -1,0 +1,89 @@
+{
+  "tk_kol_title": {
+    "message": "达人精灵"
+  },
+  "tk_crator": {
+    "message": "TikTok达人"
+  },
+  "tk_product_influencers": {
+    "message": "查看产品的TikTok相关达人"
+  },
+  "tk_influencer_finder": {
+    "message": "寻找TikTok相关达人 "
+  },
+  "tk_current_amazon_product": {
+    "message": "当前Amazon商品"
+  },
+  "tk_subcategory": {
+    "message": "所属末级类目"
+  },
+  "tk_tiktok_influencers": {
+    "message": "TikTok相关达人"
+  },
+  "tk_tiktok_influencers_tips": {
+    "message": "下方所列的达人推广过类似的商品，可根据不同目的进一步研究。</br>跨境卖家：根据数据，进一步研究达人主页风格，判断达人是否适合自己的产品做推广；</br>推广内容创作者：可直接参考数据好的相关达人，如何制作内容。</br></br>搭配达人精灵插件，可进一步分析达人画像、风格、数据、脚本、亮点、仿写脚本等。"
+  },
+  "tk_influencer": {
+    "message": "达人"
+  },
+  "tk_product_cnt_tips": {
+    "message": "达人带货过的Tiktok店铺商品总数"
+  },
+  "tk_product_cnt": {
+    "message": "带货数"
+  },
+  "tk_sales_volume_tips": {
+    "message": "达人视频带货过的Tiktok店铺商品总销量</br>可以评估达人视频的综合带货能力"
+  },
+  "tk_sales_volume": {
+    "message": "带货总销量"
+  },
+  "tk_follower_count_tips": {
+    "message": "达人的粉丝总数</br>可以评估达人账号影响力"
+  },
+  "tk_follower_count": {
+    "message": "粉丝数"
+  },
+  "tk_average_views_tips": {
+    "message": "达人视频总播放量/视频总数</br>可以综合粉丝数，评估达人创作内容的影响力"
+  },
+  "tk_average_views": {
+    "message": "平均播放"
+  },
+  "tk_engagement_rate_tips": {
+    "message": "又称互动率， = (点赞+评论+收藏+分享)/播放</br>可以评估达人视频内容吸引力"
+  },
+  "tk_engagement_rate": {
+    "message": "赞转评率"
+  },
+  "tk_action": {
+    "message": "操作"
+  },
+  "tk_view_profile": {
+    "message": "打开TikTok主页"
+  },
+  "tk_more_tools": {
+    "message": "搭配《达人精灵》插件，可在TikTok看到更多分析数据哟~"
+  },
+  "tk_click_learn_more": {
+    "message": "现在就点我安装吧"
+  },
+  "tk_bsr_rank": {
+    "message": "当前BSR榜单"
+  },
+  "tk_search_keyword": {
+    "message": "当前搜索词"
+  },
+  "tk_more_creator_data": {
+    "message": "查看达人更多数据"
+  },
+  "tk_more_relative_creator": {
+    "message": "查看更多相关达人"
+  },
+  "tk_no_sale_creator": {
+    "message": "非带货达人"
+  },
+  "tk_get_data_error": {
+    "message": "数据获取失败，请稍后重试或咨询客服"
+  }
+}

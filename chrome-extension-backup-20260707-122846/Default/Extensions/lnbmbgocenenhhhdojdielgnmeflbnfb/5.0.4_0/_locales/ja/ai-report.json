@@ -1,0 +1,215 @@
+{
+  "ai_report_page_title": {
+    "message": "AI解析 | セラースプライト"
+  },
+  "ai_report_confirm": {
+    "message": "確認"
+  },
+  "ai_report_cancle": {
+    "message": "キャンセル"
+  },
+  "ai_report_button_reset": {
+    "message": "リセット"
+  },
+  "ai_report_copy_link": {
+    "message": "リンクをコピー"
+  },
+  "ai_report_tip": {
+    "message": "AIでキーワードを解析 × Keepaトレンド分析 × マーケットインサイト × 競合追跡。経験ではなくデータで判断精度を向上！"
+  },
+  "ai_report_reset": {
+    "message": "再生成"
+  },
+  "ai_report_try": {
+    "message": "試してみる"
+  },
+  "ai_report_create_new": {
+    "message": "新しい対話を作成"
+  },
+  "ai_report_reset_tip": {
+    "message": "再生成すると現在の内容が上書きされます。よろしいですか？"
+  },
+  "ai_report_share_title": {
+    "message": "共有"
+  },
+  "ai_report_share": {
+    "message": "<span style='font-size: 13px;color: #FB8C1E'>{time}</span> まで有効なリンクを友達と共有しよう",
+    "placeholders": {
+      "time": {}
+    }
+  },
+  "ai_report_loading_text": {
+    "message": "分析中...約1〜3分かかります"
+  },
+  "ai_report_loading_tip": {
+    "message": "ページをブックマークして、7日以内にいつでもレポートを確認できます"
+  },
+  "ai_report_create_text": {
+    "message": "データ解析"
+  },
+  "ai_report_button_tip": {
+    "message": "セラースプライト × Gemini AI<br>クリックしてAIデータ解析を体験しよう！"
+  },
+  "ai_report_button_re_tip": {
+    "message": "AI解析レポートを再生成"
+  },
+  "ai_report_load_error": {
+    "message": "サーバーが混雑しています！少し時間をおいてから再試行してください（今回の解析では回数は消費されません）"
+  },
+  "ai_report_mini_load_error": {
+    "message": "サーバーが混雑しています！後ほどお試しください（今回の解析では回数は消費されません）"
+  },
+  "ai_report_load_over_time": {
+    "message": "リンクが無効になりました。<br>「機能」からAIで新しいレポートを生成してください！"
+  },
+  "ai_report_support": {
+    "message": "セラースプライト （https://www.sellersprite.com）"
+  },
+  "ai_report_date": {
+    "message": "データ期間："
+  },
+  "ai_report_analysisDate": {
+    "message": "解析日："
+  },
+  "ai_report_support_title": {
+    "message": "データ提供："
+  },
+  "ai_report_free_toast": {
+    "message": "本日のAI解析回数（10回/日）が上限に達しました。有料プランで（100回/日）にアップグレード！"
+  },
+  "ai_report_free_toast_tool": {
+    "message": "本日のAI解析回数（10回/日）が上限に達しました。<a style='color: #ff9300' href='https://www.sellersprite.com/price' target='_blank'>有料プランにアップグレード</a>して（100回/日）解放しよう！"
+  },
+  "ai_report_limit_toast": {
+    "message": "本日のAI解析上限（100回/日）に達しました。明日自動的にリセットされます"
+  },
+  "ai_report_button_share": {
+    "message": "友達に共有"
+  },
+  "ai_report_button_export": {
+    "message": "PDFをエクスポート"
+  },
+  "ai_report_warning_tip": {
+    "message": "このレポートはAIが生成しています。内容の正確性にはご注意ください。レポートの有効期限は10日間ですので、早めに保存をおすすめします"
+  },
+  "ai_report_warning_tip_time": {
+    "message": "このレポートはAIが生成しています。{time}まで有効ですので、早めに保存してください",
+    "placeholders": {
+      "time": {}
+    }
+  },
+  "ai_report_warning_tip_time_example": {
+    "message": "この例示レポートは永久に有効です"
+  },
+  "ai_report_share_example": {
+    "message": "この例示レポートは永久に有効です。友達に共有しよう"
+  },
+  "ai_report_warning_tip_new": {
+    "message": "すべての生成内容はAIモデルによるものであり、その正確性と完全性を保証するものではありません。あらかじめご了承ください"
+  },
+  "ai_report_pay_times": {
+    "message": "本日残り{times}回",
+    "placeholders": {
+      "times": {}
+    }
+  },
+  "ai_report_pay_more_times": {
+    "message": "<span style='color: #8A8B97;font-size: 13px'>本日残り{times}回</span>"
+  },
+  "ai_report_history_pay_limit_5_times": {
+    "message": "<span style='color: #8A8B97;font-size: 13px'>本日残り<span style='color: #FB8C1E'> {times} </span>回</span>"
+  },
+  "ai_report_upgrade": {
+    "message": "<span style='color: #FB8C1E'> プランをアップグレード</span>"
+  },
+  "ai_report_pay_free_times": {
+    "message": "有料プランにアップグレードして100回/日<br /><a style='color: #ff9300' href='https://www.sellersprite.com/price' target='_blank'>こちらをクリック</a>"
+  },
+  "ai_report_back": {
+    "message": "戻る"
+  },
+  "ai_report_data_empty": {
+    "message": "データがありません"
+  },
+  "ai_report_search_placeholder": {
+    "message": "履歴を検索"
+  },
+  "ai_report_example_title": {
+    "message": "人気商品を一括分析"
+  },
+  "ai_report_KP_placeholder": {
+    "message": "分析したいASINを入力してください（例：B07Z82895W）"
+  },
+  "ai_report_MA_placeholder": {
+    "message": "分析したいASINを入力してください（例：B07Z82895W）"
+  },
+  "ai_report_check_asin": {
+    "message": "入力したASIN形式が正しくありません。ご確認ください"
+  },
+  "ai_report_check_asin_not_found": {
+    "message": "該当のASINが見つかりません。入力をご確認ください"
+  },
+  "ai_report_oprate_tips": {
+    "message": "操作方法が分からない？<a style='color: #ff9300' href='https://www.sellersprite.com/v3/knowledge/feature/Keepa-ai-analysis-for-beginners#%E8%A7%86%E9%A2%91%E8%AE%B2%E8%A7%A3' target='_blank'>動画チュートリアルはこちら</a>"
+  },
+  "ai_report_text_area_placeholder": {
+    "message": "分析したい内容を入力してください。何を聞けばいいか分からない？下のタグを参考にしてください！"
+  },
+  "ai_report_text_area_placeholder_new": {
+    "message": "分析したい内容を入力して、より深い分析をしましょう！"
+  },
+  "ai_report_learn_KP": {
+    "message": "1分でKeepaデータのAI解析をマスター"
+  },
+  "ai_report_learn_MA": {
+    "message": "1分で市場データのAI解析をマスター"
+  },
+  "ai_report_analysis_tip": {
+    "message": "今すぐ分析（1回分消費）"
+  },
+  "ai_report_wechat_text": {
+    "message": "QRコードで1対1のアシスタントを追加"
+  },
+  "ai_report_delete_info": {
+    "message": "削除すると、会話および共有リンクは永久に無効になります。削除してもよろしいですか？"
+  },
+  "ai_report_ready_info": {
+    "message": "まもなくオンライン、どうぞお楽しみに！"
+  },
+  "ai_report_keepa_analysis": {
+    "message": "Keepaデータ分析"
+  },
+  "ai_report_market_analysis": {
+    "message": "ニッチ市場分析"
+  },
+  "ai_report_keepa_info": {
+    "message": "Keepaの隠れたトレンドをAIで解読し、競合の動向を正確に把握して市場を先取り"
+  },
+  "ai_report_market_info": {
+    "message": "AIがニッチ市場を深くスキャン、潜在チャンスを発掘し、有望な市場を特定"
+  },
+  "ai_report_start_use": {
+    "message": "今すぐ利用"
+  },
+  "ai_report_ready_start_use": {
+    "message": "まもなくオンライン"
+  },
+  "ai_report_ad_1": {
+    "message": "セラースプライト × DeepSeek-R1フルバージョン"
+  },
+  "ai_report_ad_2": {
+    "message": "AIがKeepaグラフを解析し、的確なビジネス判断をサポート！"
+  },
+  "ai_report_ad_3": {
+    "message": "複雑なデータを一瞬で洞察へ、AIで選品と運営をナビゲート！"
+  },
+  "ai_report_ad_4": {
+    "message": "Keepaの動きをひと目で把握、AIで価格変動の秘密を解明！"
+  },
+  "ai_report_ad_5": {
+    "message": "手動分析にサヨナラ、AIがKeepaのトレンドを瞬時に読み取り、素早く判断！"
+  },
+  "ai_report_ad_6": {
+    "message": "市場成長のチャンスを発見、セラースプライトAIが全面サポート"
+  }
+}

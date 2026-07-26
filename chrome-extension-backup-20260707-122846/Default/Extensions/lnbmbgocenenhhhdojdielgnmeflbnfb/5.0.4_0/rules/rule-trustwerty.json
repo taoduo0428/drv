@@ -1,0 +1,94 @@
+[
+  {
+    "id": 4,
+    "priority": 4,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "origin",
+          "operation": "set",
+          "value": "https://trustwerty.com"
+        },
+        {
+          "header": "referer",
+          "operation": "set",
+          "value": "https://trustwerty.com"
+        }
+      ]
+    },
+    "condition": {
+      "urlFilter": "trustwerty.com/api/bulk-asins",
+      "resourceTypes": ["xmlhttprequest"]
+    }
+  },
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "origin",
+          "operation": "set",
+          "value": "https://tiksave.io"
+        },
+        {
+          "header": "referer",
+          "operation": "set",
+          "value": "https://tiksave.io/en"
+        }
+      ]
+    },
+    "condition": {
+      "urlFilter": "https://tiksave.io/api/ajaxSearch",
+      "resourceTypes": ["xmlhttprequest"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "origin",
+          "operation": "set",
+          "value": "https://www.kolsprite.com/extends"
+        },
+        {
+          "header": "referer",
+          "operation": "set",
+          "value": "https://www.kolsprite.com/extends"
+        }
+      ]
+    },
+    "condition": {
+      "urlFilter": "https://translate-pa.googleapis.com/v1/translateHtml",
+      "resourceTypes": ["xmlhttprequest"]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "origin",
+          "operation": "set",
+          "value": "https://www.kolsprite.com"
+        },
+        {
+          "header": "referer",
+          "operation": "set",
+          "value": "https://www.kolsprite.com"
+        }
+      ]
+    },
+    "condition": {
+      "urlFilter": "https://o.kolsprite.com/caption",
+      "resourceTypes": ["xmlhttprequest"]
+    }
+  }
+]

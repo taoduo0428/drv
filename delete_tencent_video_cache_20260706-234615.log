@@ -1,0 +1,5 @@
+﻿[2026-07-06 23:46:15] Target: C:\5ddee7b0b73c09d07f96460afbf9db91
+[2026-07-06 23:46:15] Verified Tencent Video cache. Files=1419, Size=7.02 GB
+[2026-07-06 23:46:15] C free before: 106.92 GB
+[2026-07-06 23:46:15] DRY RUN only. No files were deleted.
+[2026-07-06 23:46:15] To delete, run this script with -DryRun:$false and type YES.

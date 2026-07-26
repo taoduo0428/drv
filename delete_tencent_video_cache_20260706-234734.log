@@ -1,0 +1,4 @@
+﻿[2026-07-06 23:47:34] Target: C:\5ddee7b0b73c09d07f96460afbf9db91
+[2026-07-06 23:47:34] Verified Tencent Video cache. Files=1419, Size=7.02 GB
+[2026-07-06 23:47:34] C free before: 106.92 GB
+[2026-07-06 23:47:34] FAILED: 文件“159.ts”正由另一进程使用，因此该进程无法访问此文件。

@@ -1,0 +1,89 @@
+{
+  "tk_kol_title": {
+    "message": "KOLSprite"
+  },
+  "tk_crator": {
+    "message": "TikTok Influencer"
+  },
+  "tk_product_influencers": {
+    "message": "View TikTok Influencers Related to the Product"
+  },
+  "tk_influencer_finder": {
+    "message": "Find TikTok Influencers"
+  },
+  "tk_current_amazon_product": {
+    "message": "Current Amazon Product"
+  },
+  "tk_subcategory": {
+    "message": "Subcategory"
+  },
+  "tk_tiktok_influencers": {
+    "message": "TikTok Influencers"
+  },
+  "tk_tiktok_influencers_tips": {
+    "message": "The following listed influencers have promoted similar products, and you can conduct further research according to different purposes.</br>Cross-border sellers: Based on the data, conduct further research on the style of the influencers' homepages to determine whether the influencers are suitable for promoting your own products.</br>Promotion content creators: You can directly refer to the relevant influencers with good data to learn how to create content.</br></br>When used in conjunction with the Influencer Wizard plugin, you can further analyze the influencer portraits, styles, data, scripts, highlights, and even imitate the scripts, etc."
+  },
+  "tk_influencer": {
+    "message": "Influencer"
+  },
+  "tk_product_cnt_tips": {
+    "message": "Total number of TikTok shop products promoted by the influencer."
+  },
+  "tk_product_cnt": {
+    "message": "Products promoted"
+  },
+  "tk_sales_volume_tips": {
+    "message": "Total units sold through the influencer's TikTok videos, reflecting their overall sales-driving ability."
+  },
+  "tk_sales_volume": {
+    "message": "Total sales"
+  },
+  "tk_follower_count_tips": {
+    "message": "The total number of the influencer's fans</br>can evaluate the influence of the influencer's account."
+  },
+  "tk_follower_count": {
+    "message": "Follower Count"
+  },
+  "tk_average_views_tips": {
+    "message": "达The total playback volume of the influencer's videos divided by the total number of videos</br>can, when combined with the number of fans, evaluate the influence of the influencer's creative content."
+  },
+  "tk_average_views": {
+    "message": "Average Views"
+  },
+  "tk_engagement_rate_tips": {
+    "message": "Also known as the interaction rate, it is calculated as (likes + comments + favorites + shares) /views,</br>which can evaluate the attractiveness of the influencer's video content"
+  },
+  "tk_engagement_rate": {
+    "message": "Engagement Rate"
+  },
+  "tk_action": {
+    "message": "Action"
+  },
+  "tk_view_profile": {
+    "message": "View Influencer Profile"
+  },
+  "tk_more_tools": {
+    "message": "Pair with the new plugin to see more analysis data on TikTok~"
+  },
+  "tk_click_learn_more": {
+    "message": "Click me to install it now"
+  },
+  "tk_bsr_rank": {
+    "message": "Current BSR Ranking"
+  },
+  "tk_search_keyword": {
+    "message": "Current Search Keyword"
+  },
+  "tk_more_creator_data": {
+    "message": "View More Creator Data"
+  },
+  "tk_more_relative_creator": {
+    "message": "View More Related Creators"
+  },
+  "tk_get_data_error": {
+    "message": "Data retrieval failed. Please try again later or contact customer support."
+  },
+  "tk_no_sale_creator": {
+    "message": "Non-sales creator"
+  }
+}

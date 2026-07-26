@@ -1,0 +1,302 @@
+{
+  "store_module_product_num": {
+    "message": "产品数"
+  },
+  "store_module_new_product_num": {
+    "message": "新品数"
+  },
+  "store_module_brand_num": {
+    "message": "品牌数"
+  },
+  "store_module_feedback_num": {
+    "message": "Feedback数/评分"
+  },
+  "store_module_delivery_method": {
+    "message": "配送方式"
+  },
+  "store_module_location": {
+    "message": "所在地"
+  },
+  "store_module_market_analysis": {
+    "message": "市场分析"
+  },
+  "store_module_download_product_features": {
+    "message": "下载产品卖点"
+  },
+  "store_module_copy_all_asin": {
+    "message": "复制所有ASIN"
+  },
+  "store_module_store_age": {
+    "message": "店铺年龄"
+  },
+  "store_module_recent_listing_time": {
+    "message": "最近上架时间"
+  },
+  "store_module_30_day_sales": {
+    "message": "近30天销量"
+  },
+  "store_module_revenue": {
+    "message": "销售额"
+  },
+  "store_module_average_bsr": {
+    "message": "平均BSR"
+  },
+  "store_module_min_max_bsr": {
+    "message": "最小/最大BSR"
+  },
+  "store_module_average_price": {
+    "message": "平均价格"
+  },
+  "store_module_min_max_price": {
+    "message": "最低/最高价格"
+  },
+  "store_module_average_rating_count": {
+    "message": "平均评分/评分数"
+  },
+  "store_module_top_10_product_ratings": {
+    "message": "前10产品评分"
+  },
+  "store_module_product_list": {
+    "message": "产品列表"
+  },
+  "store_module_price_distribution": {
+    "message": "价格分布"
+  },
+  "store_module_seller_type": {
+    "message": "卖家类型"
+  },
+  "store_module_a_plus_video": {
+    "message": "A+视频"
+  },
+  "store_module_listing_time": {
+    "message": "上架时间"
+  },
+  "store_module_rating_value": {
+    "message": "评分值"
+  },
+  "store_module_view_new_only": {
+    "message": "只查看新品"
+  },
+  "store_module_product": {
+    "message": "产品"
+  },
+  "store_module_brand": {
+    "message": "品牌"
+  },
+  "store_module_category": {
+    "message": "类目"
+  },
+  "store_module_parent_sales": {
+    "message": "销量(父)"
+  },
+  "store_module_child_sales": {
+    "message": "子体销量"
+  },
+  "store_module_variant_count": {
+    "message": "变体数"
+  },
+  "store_module_price": {
+    "message": "价格"
+  },
+  "store_module_rating": {
+    "message": "评分"
+  },
+  "store_module_rating_count": {
+    "message": "评分数"
+  },
+  "store_module_seller_count": {
+    "message": "卖家数"
+  },
+  "store_module_list": {
+    "message": "列表"
+  },
+  "store_module_graph": {
+    "message": "图形"
+  },
+  "store_module_export": {
+    "message": "导出"
+  },
+  "store_module_sales": {
+    "message": "销量"
+  },
+  "store_module_proportion": {
+    "message": "占比"
+  },
+  "store_module_brand_flagship": {
+    "message": "品牌旗舰店"
+  },
+  "store_module_30_day_total_sales": {
+    "message": "近30天总销量"
+  },
+  "store_module_30_day_total_revenue": {
+    "message": "近30天总销售额"
+  },
+  "store_module_tips_fake": {
+    "message": "销量数据仅展示店铺前10产品，如需更多请<a style='color: #ff9300' href='https://www.sellersprite.com/price' target='_blank'>升级套餐</a>哦~"
+  },
+  "store_module_seller_duration_tips": {
+    "message": "店铺内首款产品上架至今的天数<br>最近上架时间：店铺内最新一款产品上架的具体日期"
+  },
+  "store_module_month_sales_tips": {
+    "message": "店铺内所有产品在过去30天的销量总和<br>销售额：店铺内所有产品在过去30天的总销售额"
+  },
+  "store_module_avg_bsr_tips": {
+    "message": "店铺内所有产品BSR排名的平均数值<br/>最小/最大BSR：店铺内所有产品中BSR排名的最低值和最高值，数值越小，BSR排名越靠前"
+  },
+  "store_module_avg_price_tips": {
+    "message": "店铺内所有产品价格的平均值<br>最低/最高价格：店铺内所有产品中的最低价格和最高价格"
+  },
+  "store_module_avg_rating_reviews_tips": {
+    "message": "店铺内所有产品评分的平均值/店铺内所有产品评分数的平均值<br>前10产品评分：店铺内销量前10产品的平均评分值"
+  },
+  "store_module_sales_rate_vip": {
+    "message": "不同品牌或类目下的产品销量占店铺总销量的比例"
+  },
+  "store_module_sales_rate_free": {
+    "message": "不同品牌或类目下的产品销量占店铺总销量的比例<br>仅统计销量前10产品，如需更多请<a style='color: #ff9300' href='https://www.sellersprite.com/price' target='_blank'>升级套餐</a>哦"
+  },
+  "excel_store_image": {
+    "message": "图片"
+  },
+  "excel_store_asin": {
+    "message": "ASIN"
+  },
+  "excel_store_parent_asin": {
+    "message": "父ASIN"
+  },
+  "excel_store_url": {
+    "message": "商品详情页链接"
+  },
+  "excel_store_image_url": {
+    "message": "商品主图"
+  },
+  "excel_store_brand": {
+    "message": "品牌"
+  },
+  "excel_store_overviews": {
+    "message": "详细参数"
+  },
+  "excel_store_brand_url": {
+    "message": "品牌链接"
+  },
+  "excel_store_title": {
+    "message": "商品标题"
+  },
+  "excel_store_title_translate": {
+    "message": "标题(翻译)"
+  },
+  "excel_store_departments": {
+    "message": "所属类目"
+  },
+  "excel_store_category_path": {
+    "message": "类目路径"
+  },
+  "excel_store_category": {
+    "message": "大类目"
+  },
+  "excel_store_bsr": {
+    "message": "大类BSR"
+  },
+  "excel_store_bsr_CV": {
+    "message": "大类BSR增长数"
+  },
+  "excel_store_bsr_CR": {
+    "message": "大类BSR增长率"
+  },
+  "excel_store_sub_category": {
+    "message": "小类目"
+  },
+  "excel_store_sub_category_BSR": {
+    "message": "小类BSR"
+  },
+  "excel_store_sales_volume": {
+    "message": "月销量"
+  },
+  "excel_store_sales_volume_growth": {
+    "message": "月销量增长率"
+  },
+  "excel_store_sub_sales_volume": {
+    "message": "子体销量"
+  },
+  "excel_store_sub_sales_amount": {
+    "message": "子体销售额"
+  },
+  "excel_store_sales_amount": {
+    "message": "月销售额"
+  },
+  "excel_store_price": {
+    "message": "价格"
+  },
+  "excel_store_prime_price": {
+    "message": "Prime价格"
+  },
+  "excel_store_coupon": {
+    "message": "Coupon"
+  },
+  "excel_store_profit": {
+    "message": "毛利率"
+  },
+  "excel_store_fba_fees": {
+    "message": "FBA"
+  },
+  "excel_store_rating": {
+    "message": "评分"
+  },
+  "excel_store_review": {
+    "message": "评分数"
+  },
+  "excel_store_review_rate": {
+    "message": "留评率"
+  },
+  "excel_store_review_delta": {
+    "message": "月新增评分数"
+  },
+  "excel_store_grade": {
+    "message": "评级"
+  },
+  "excel_store_questions": {
+    "message": "Q&A数"
+  },
+  "excel_store_date_available": {
+    "message": "上架时间"
+  },
+  "excel_store_available_days": {
+    "message": "上架天数"
+  },
+  "excel_store_variations": {
+    "message": "变体数"
+  },
+  "excel_store_sellers": {
+    "message": "卖家数"
+  },
+  "excel_store_weight": {
+    "message": "重量"
+  },
+  "excel_store_dimension": {
+    "message": "体积"
+  },
+  "excel_store_pkg_weight": {
+    "message": "包装重量"
+  },
+  "excel_store_pkg_dimension": {
+    "message": "包装体积"
+  },
+  "excel_store_proportion": {
+    "message": "占比"
+  },
+  "store_first_listing_time": {
+    "message": "首次上架时间：{date}",
+    "placeholders": {
+      "date": {
+        "content": "$1",
+        "example": "2021-10-01"
+      }
+    }
+  },
+  "store_search_btn": {
+    "message": "查询"
+  },
+  "store_see_more_btn": {
+    "message": "查看更多"
+  }
+}

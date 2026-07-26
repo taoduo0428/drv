@@ -1,0 +1,164 @@
+{
+  "relevance_check_my_tpl": {
+    "message": "マイテンプレート"
+  },
+  "relevance_check_input_asin": {
+    "message": "ASINを入力"
+  },
+  "relevance_check_input_keywords": {
+    "message": "キーワードを入力"
+  },
+  "relevance_check_asin_limit": {
+    "message": "最大48個の競合ASINで、より正確に！1行に1つのASINを入力し、改行で区切ってください"
+  },
+  "relevance_check_reminder": {
+    "message": "ワンクリックで「高関連」キーワードをリアルタイム抽出！ コアキーワードリストを正確に構築し、いち早くトラフィックを獲得しましょう。（推奨：<span style='color: #FB8C1E;'>48個の競合ASIN</span>）"
+  },
+  "relevance_check_new_feature": {
+    "message": "「関連性スクリーニング」機能が新登場！<br>競合ASINとキーワードの関連性をリアルタ<br>イムで測定できます。ぜひお試しください！"
+  },
+  "relevance_check_example_data": {
+    "message": "関連性データのサンプル："
+  },
+  "relevance_check_example_data_click": {
+    "message": "クリックして入力"
+  },
+  "relevance_check_clear_conditions": {
+    "message": "すべての条件をクリア"
+  },
+  "relevance_check_select_template": {
+    "message": "テンプレートから選択"
+  },
+  "relevance_check_save_template": {
+    "message": "テンプレートとして保存"
+  },
+  "relevance_check_relevance": {
+    "message": "関連性"
+  },
+  "relevance_check_relevance_tips": {
+    "message": "「関連性」は、ASINがあるキーワードの検索結果上位96件（自然検索）における絶対位置をもとに、総合占有率を計算して算出されます。<br>（1ページに48件表示される場合は上位2ページ、16件表示の場合は上位6ページまでをクロール）<br>・高関連：{high}%以上<br>・中関連：{medium}%〜{high}%<br>・低関連：{low}%〜{medium}%<br>・非関連：{low}%未満<br><br>「関連性」計算原理：<a href='https://www.sellersprite.com/jp/v3/knowledge/feature/relevance-principle-of-extension' style='color: #FB8C1E;' target='_blank'>こちらをクリック</a>",
+    "placeholders": {
+      "high": {
+        "content": "$1",
+        "example": "60"
+      },
+      "medium": {
+        "content": "$2",
+        "example": "20"
+      },
+      "low": {
+        "content": "$3",
+        "example": "5"
+      }
+    }
+  },
+  "relevance_check_template_name": {
+    "message": "テンプレート名"
+  },
+  "relevance_check_keyword_performance_score": {
+    "message": "キーワードパフォーマンススコア"
+  },
+  "relevance_check_keyword_performance_score_tips": {
+    "message": "キーワードパフォーマンススコア（Zスコア）とは？<br>Z-scoreを用いて計算され、指定したキーワードが全体の平均水準とどの程度異なるかを示します。<br>・正の値：キーワードのパフォーマンスが平均より優れている（数値が大きいほど良い）。<br>・負の値：キーワードのパフォーマンスが平均より低い（数値が小さいほど悪い）。<br>・0：キーワードのパフォーマンスが平均に近い。<br><br>キーワードパフォーマンススコア（Zスコア）の計算原理：<a href='https://www.sellersprite.com/jp/v3/knowledge/feature/keyword-performance-score-of-extension' style='color: #FB8C1E;' target='_blank'>こちらをクリック</a>"
+  },
+  "relevance_check_relevance_categories_not_relevant": {
+    "message": "非関連"
+  },
+  "relevance_check_relevance_categories_low": {
+    "message": "低関連"
+  },
+  "relevance_check_relevance_categories_high": {
+    "message": "高関連"
+  },
+  "relevance_check_relevance_categories_medium": {
+    "message": "中関連"
+  },
+  "relevance_check_positive_score": {
+    "message": "キーワードのパフォーマンスが平均以上なら、数値が大きいほど良好！"
+  },
+  "relevance_check_negative_score": {
+    "message": "キーワードのパフォーマンスが平均以下なら、数値が小さいほど低パフォーマンス！"
+  },
+  "relevance_check_neutral_score": {
+    "message": "キーワードのパフォーマンスが平均に近い場合は、0に近づく！"
+  },
+  "relevance_check_high_relevance": {
+    "message": "このキーワードでは、<span style='color: #FB8C1E;'>ほとんどの商品</span>が競合ASINと高度に一致し、トラフィックやコンバージョンの可能性が最大。"
+  },
+  "relevance_check_medium_relevance": {
+    "message": "このキーワードでは<span style='color: #FB8C1E;'>一部の商品</span>が競合ASINと高度に一致し、最適化が必要な可能性あり。"
+  },
+  "relevance_check_low_relevance": {
+    "message": "このキーワードでは<span style='color: #FB8C1E;'>ごく一部の商品</span>が競合ASINと一致し、トラフィックやコンバージョンの可能性は限定的。"
+  },
+  "relevance_check_not_relevant_explanation": {
+    "message": "このキーワードでは、競合ASINと<span style='color: #FB8C1E;'>ほぼ一致する商品がなく</span>、使用は推奨されない。"
+  },
+  "relevance_check_total_keywords": {
+    "message": "チェックしたキーワード<span style='color: #FB8C1E;'>{num}</span>個",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "0"
+      },
+      "num1": {
+        "content": "$2",
+        "example": "0"
+      }
+    }
+  },
+  "relevance_check_template_success": {
+    "message": "テンプレートの追加が完了しました！"
+  },
+  "relevance_check_template_success_tips": {
+    "message": "次回の検索では、テンプレートを選択するだけで簡単に利用できます"
+  },
+  "relevance_check_analysis_progress": {
+    "message": "分析中…ページを開いたままお待ちください。"
+  },
+  "relevance_check_template_name_prompt": {
+    "message": "テンプレート名を入力してください（任意）"
+  },
+  "relevance_check_asin_count": {
+    "message": "ASIN数"
+  },
+  "relevance_check_keyword_count": {
+    "message": "キーワード数"
+  },
+  "relevance_check_my_tpl_name": {
+    "message": "テンプレート名"
+  },
+  "relevance_check_my_tpl_create": {
+    "message": "作成日時"
+  },
+  "relevance_cleared_all": {
+    "message": "すべての条件をクリアしました"
+  },
+  "relevance_check_relevance_percentage": {
+    "message": "関連性パーセンテージ"
+  },
+  "relevance_check_select_template_tips": {
+    "message": "少なくとも1つのテンプレートを選択してください。"
+  },
+  "relevance_check_delete_template_tips": {
+    "message": "削除後はデータを復元できません。本当に削除してもよろしいですか"
+  },
+  "relevance_check_delete_template_confirm": {
+    "message": "確認"
+  },
+  "relevance_check_delete_template_cancel": {
+    "message": "キャンセル"
+  },
+  "relevance_check_btn_video_href": {
+    "message": "https://www.sellersprite.com/jp/help/relevance-check-of-extension"
+  },
+  "relevance_check_set_rate": {
+    "message": "百分率"
+  },
+  "relevance_check_set_rate_tips": {
+    "message": "注意:カテゴリーごとに関連性基準を変えるのがおすすめです。"
+  },
+  "relevance_check_set_warning_tips": {
+    "message": "設定内容を正しく入力してください。"
+  }
+}

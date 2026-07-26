@@ -1,0 +1,172 @@
+[CmdletBinding()]
+param(
+    [string]$SshExe = (Join-Path ([Environment]::SystemDirectory) "OpenSSH\ssh.exe"),
+    [string]$SshConfig = "$env:APPDATA\Code\User\ssh-seetacloud-split.conf",
+    [string]$HostAlias = "seetacloud-gpu-tunnel-alex",
+    [ValidateRange(5, 300)]
+    [int]$ExistingCheckSeconds = 15,
+    [ValidateRange(15, 600)]
+    [int]$MaxBackoffSeconds = 60
+)
+
+Set-StrictMode -Version Latest
+$ErrorActionPreference = "Stop"
+
+$mutexName = "Local\CodexSeetaCloudTunnelAlexWatchdog"
+$createdNew = $false
+$mutex = [System.Threading.Mutex]::new($true, $mutexName, [ref]$createdNew)
+
+if (-not $createdNew) {
+    $mutex.Dispose()
+    exit 0
+}
+
+$logPath = Join-Path $PSScriptRoot "codex-seetacloud-tunnel-watchdog.log"
+$utf8NoBom = [System.Text.UTF8Encoding]::new($false)
+$maxLogBytes = 1MB
+
+function Write-WatchdogLog {
+    param([Parameter(Mandatory)][string]$Message)
+
+    try {
+        if ((Test-Path -LiteralPath $logPath) -and
+            ((Get-Item -LiteralPath $logPath).Length -gt $maxLogBytes)) {
+            $resetLine = "{0} [INFO] Log reset after reaching {1} bytes.{2}" -f (
+                Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+            ), $maxLogBytes, [Environment]::NewLine
+            [System.IO.File]::WriteAllText($logPath, $resetLine, $utf8NoBom)
+        }
+
+        $line = "{0} {1}{2}" -f (
+            Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+        ), $Message, [Environment]::NewLine
+        [System.IO.File]::AppendAllText($logPath, $line, $utf8NoBom)
+    }
+    catch {
+        # Logging must never terminate the tunnel watchdog.
+    }
+}
+
+function Test-ExistingTunnelProcess {
+    try {
+        $matches = @(
+            Get-CimInstance Win32_Process -Filter "Name='ssh.exe'" -ErrorAction Stop |
+                Where-Object {
+                    $_.CommandLine -and
+                    $_.CommandLine.IndexOf(
+                        $HostAlias,
+                        [System.StringComparison]::OrdinalIgnoreCase
+                    ) -ge 0
+                }
+        )
+        return $matches.Count -gt 0
+    }
+    catch {
+        Write-WatchdogLog (
+            "[WARN] Could not inspect existing ssh.exe processes: {0}" -f
+            $_.Exception.Message
+        )
+        return $false
+    }
+}
+
+$sshArguments = @(
+    "-N",
+    "-T",
+    "-F", $SshConfig,
+    "-o", "BatchMode=yes",
+    "-o", "ConnectTimeout=10",
+    "-o", "ConnectionAttempts=1",
+    "-o", "ExitOnForwardFailure=yes",
+    "-o", "ServerAliveInterval=15",
+    "-o", "ServerAliveCountMax=2",
+    "-o", "TCPKeepAlive=yes",
+    "-o", "LogLevel=ERROR",
+    $HostAlias
+)
+
+$retryDelaySeconds = 5
+$reportedExistingTunnel = $false
+
+Write-WatchdogLog (
+    "[INFO] Watchdog started. host={0} config={1}" -f
+    $HostAlias, $SshConfig
+)
+
+try {
+    while ($true) {
+        try {
+            if (-not (Test-Path -LiteralPath $SshExe -PathType Leaf)) {
+                throw "ssh.exe not found at $SshExe"
+            }
+
+            if (-not (Test-Path -LiteralPath $SshConfig -PathType Leaf)) {
+                throw "SSH config not found at $SshConfig"
+            }
+
+            if (Test-ExistingTunnelProcess) {
+                if (-not $reportedExistingTunnel) {
+                    Write-WatchdogLog (
+                        "[INFO] Existing tunnel process detected; monitoring it."
+                    )
+                    $reportedExistingTunnel = $true
+                }
+
+                Start-Sleep -Seconds $ExistingCheckSeconds
+                continue
+            }
+
+            $reportedExistingTunnel = $false
+            $startedAt = [DateTime]::UtcNow
+            Write-WatchdogLog "[INFO] Starting SSH reverse tunnel."
+
+            & $SshExe @sshArguments 2>&1 |
+                ForEach-Object {
+                    if ($_ -ne $null -and $_.ToString().Length -gt 0) {
+                        Write-WatchdogLog (
+                            "[SSH] {0}" -f $_.ToString().Trim()
+                        )
+                    }
+                }
+
+            $exitCode = $LASTEXITCODE
+            $lifetimeSeconds = [int](
+                ([DateTime]::UtcNow - $startedAt).TotalSeconds
+            )
+
+            if ($lifetimeSeconds -ge 60) {
+                $retryDelaySeconds = 5
+            }
+            else {
+                $retryDelaySeconds = [Math]::Min(
+                    $MaxBackoffSeconds,
+                    [Math]::Max(5, $retryDelaySeconds * 2)
+                )
+            }
+
+            Write-WatchdogLog (
+                "[WARN] SSH tunnel exited. code={0} lifetime={1}s retry={2}s" -f
+                $exitCode, $lifetimeSeconds, $retryDelaySeconds
+            )
+        }
+        catch {
+            $retryDelaySeconds = [Math]::Min(
+                $MaxBackoffSeconds,
+                [Math]::Max(15, $retryDelaySeconds * 2)
+            )
+            Write-WatchdogLog (
+                "[ERROR] Watchdog cycle failed: {0}; retry={1}s" -f
+                $_.Exception.Message, $retryDelaySeconds
+            )
+        }
+
+        Start-Sleep -Seconds $retryDelaySeconds
+    }
+}
+finally {
+    Write-WatchdogLog "[INFO] Watchdog stopped."
+    if ($createdNew) {
+        $mutex.ReleaseMutex()
+    }
+    $mutex.Dispose()
+}

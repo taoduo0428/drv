@@ -1,0 +1,63 @@
+{
+  "notes": [
+    "示例：把这些 command 追加进 C:\\Users\\lenovo\\.codex\\hooks.json 对应事件即可。",
+    "本项目默认不自动修改全局 hooks.json，避免影响已有治理 hooks。",
+    "如果修改全局 .codex 配置，需要先备份并同步更新 CODEX-CHANGELOG.md。"
+  ],
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"C:\\Users\\lenovo\\Desktop\\obdiant\\golden-kitten-codex-pet\\scripts\\codex-pet-hook.mjs\""
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"C:\\Users\\lenovo\\Desktop\\obdiant\\golden-kitten-codex-pet\\scripts\\codex-pet-hook.mjs\""
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"C:\\Users\\lenovo\\Desktop\\obdiant\\golden-kitten-codex-pet\\scripts\\codex-pet-hook.mjs\""
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"C:\\Users\\lenovo\\Desktop\\obdiant\\golden-kitten-codex-pet\\scripts\\codex-pet-hook.mjs\""
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"C:\\Users\\lenovo\\Desktop\\obdiant\\golden-kitten-codex-pet\\scripts\\codex-pet-hook.mjs\""
+          }
+        ]
+      }
+    ]
+  }
+}

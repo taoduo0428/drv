@@ -1,0 +1,18 @@
+﻿[2026-07-06 23:25:19] Safe cache cleanup confirmation script started.
+[2026-07-06 23:25:19] Mode: DRY RUN
+[2026-07-06 23:25:19] Log file: C:\Users\lenovo\Desktop\obdiant\cleanup_log_20260706-232519.txt
+[2026-07-06 23:25:19] Temp threshold: older than 7 days
+[2026-07-06 23:25:19] Explicit exclusions: Docker, .docker, .venv, venv, node_modules, .next, build, dist, registry, services.
+[2026-07-06 23:25:40] TARGET npm-cache: root=C:\Users\lenovo\AppData\Local\npm-cache
+[2026-07-06 23:25:40]   Reason=npm cache
+[2026-07-06 23:25:40]   EligibleRoots=1, ItemsScanned=69318, Size=633.19 MB, Errors=0, Skipped=0, Truncated=False
+[2026-07-06 23:25:40] TARGET pip Cache: no eligible items or path missing. Root=C:\Users\lenovo\AppData\Local\pip\Cache
+[2026-07-06 23:25:40] TARGET Gradle caches: no eligible items or path missing. Root=C:\Users\lenovo\.gradle\caches
+[2026-07-06 23:25:40] TARGET Local Temp older than threshold: no eligible items or path missing. Root=C:\Users\lenovo\AppData\Local\Temp
+[2026-07-06 23:25:40] TARGET Edge default cache: root=C:\Users\lenovo\AppData\Local\Microsoft\Edge\User Data\Default\Cache
+[2026-07-06 23:25:40]   Reason=Edge browser cache
+[2026-07-06 23:25:40]   EligibleRoots=1, ItemsScanned=3, Size=380.95 KB, Errors=0, Skipped=0, Truncated=False
+[2026-07-06 23:25:40] TARGET Chrome default cache: no eligible items or path missing. Root=C:\Users\lenovo\AppData\Local\Google\Chrome\User Data\Default\Cache
+[2026-07-06 23:25:40] Estimated removable cache size: 633.57 MB
+[2026-07-06 23:25:40] DRY RUN complete. No filesystem changes were made.
+[2026-07-06 23:25:40] To request a real run, call this script with -DryRun:$false and type YES at the prompt.
