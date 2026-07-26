@@ -1,4 +1,8 @@
-# PC Health Toolkit
+# Workspace Snapshot and AI Reading Guide
+
+This repository is a complete Windows workspace snapshot. The primary runnable project is [`golden-kitten-codex-pet/`](./golden-kitten-codex-pet/); see [`AI_CONTEXT.md`](./AI_CONTEXT.md) for the recommended entry points and a map of generated artifacts.
+
+The PC health utilities documented below are retained as part of the snapshot.
 
 This folder contains a read-only Windows PC health scanner and generated outputs.
 
